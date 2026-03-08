@@ -38,7 +38,7 @@
                     <td>{i+1}</td>
                     <td>{user.username}</td>
                     <td>{user.stars}</td>
-                    <td>{user.commits_year}</td>
+                    <td>{user.commits}</td>
                     <td>{user.followers}</td>
                     <td>{user.repos}</td>
                     <td>{user.prs}</td>
