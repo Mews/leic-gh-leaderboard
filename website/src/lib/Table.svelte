@@ -2,14 +2,17 @@
     import SearchBar from "./SearchBar.svelte";
     import { rankStudents, giveMedal } from "./rank";
 
+    import { fade } from "svelte/transition";
+
     let query = $state("");
+    let hoveredRankIndex: number | undefined = $state(undefined);
 
     const rankedStudents = (async ()=>await rankStudents())();
 </script>
 
 <SearchBar bind:query={query}/>
 
-<div>
+<div class="table">
 <table>
     <thead>
         <tr>
@@ -33,7 +36,12 @@
             {#each students as student, i}
                 {#if student.username.toLowerCase().includes(query.toLowerCase())}
                 <tr>
-                    <td>{giveMedal(student.rank)}{student.rank}</td>
+                    <td onmouseenter={() => hoveredRankIndex = i} onmouseleave={() => hoveredRankIndex = undefined}>
+                        {giveMedal(student.rank)}{student.rank}
+                        {#if hoveredRankIndex === i}
+                            <div class="score-viewer" transition:fade={{duration:200}}>{student.score.toFixed(1)}</div>
+                        {/if}
+                    </td>
                     <td>{student.username}</td>
                     <td>{student.stars}</td>
                     <td>{student.prs}</td>
@@ -54,7 +62,7 @@
 </div>
 
 <style>
-    div {
+    div.table {
         margin-top: 2rem;
         height: 65vh;
         overflow: auto;
@@ -100,6 +108,8 @@
         padding: 8px 0 8px 0;
 
         font-size: 1rem;
+
+        position: relative;
     }
 
     tr:nth-child(odd) {
@@ -112,6 +122,25 @@
 
     tr.padding-row {
         height: 100%;
+    }
+
+    div.score-viewer {
+        position: absolute;
+        top: 50%; 
+        left: 50%;
+        transform: translate(25px, -50%);
+    
+        background-color: var(--bg-1);
+        color: var(--text-1);
+        padding: 8px 12px;
+        border-radius: 6px;
+        border: 1px solid var(--accent-1);
+        font-size: 0.85rem;
+
+        z-index: 100;
+
+        font-family: "Inter", sans-serif;
+        font-weight: 400;
     }
 
 </style>
