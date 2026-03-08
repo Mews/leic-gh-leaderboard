@@ -42,3 +42,6 @@ jobs:
   re-deploy:
     needs: update
     uses: ./.github/workflows/deploy.yaml
+    permissions:
+      pages: write
+      id-token: write
