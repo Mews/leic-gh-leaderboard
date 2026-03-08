@@ -41,4 +41,6 @@ jobs:
 
     runs-on: ubuntu-latest
     
-    uses: ./.github/workflows/deploy.yaml
+    steps:
+      - name: Re-deploy to GitHub Pages
+        uses: ./.github/workflows/deploy.yaml
