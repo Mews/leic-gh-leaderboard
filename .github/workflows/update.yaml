@@ -19,6 +19,7 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: '3.12.4'
+          cache: 'pip'
       
       - name: Run fetch script
         working-directory: ./gh
