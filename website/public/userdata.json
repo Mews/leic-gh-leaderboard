@@ -293,7 +293,7 @@
         "followers": 1,
         "repos": 3,
         "prs": 1,
-        "commits_year": 17
+        "commits_year": 12
     },
     {
         "username": "afonsovilas",
@@ -749,7 +749,7 @@
         "followers": 1,
         "repos": 1,
         "prs": 1,
-        "commits_year": 28
+        "commits_year": 1
     },
     {
         "username": "aribeirorocha",
@@ -1025,11 +1025,11 @@
     },
     {
         "username": "rodrgds",
-        "stars": 28,
+        "stars": 24,
         "followers": 15,
-        "repos": 38,
+        "repos": 33,
         "prs": 4,
-        "commits_year": 261
+        "commits_year": 262
     },
     {
         "username": "up202404805",
@@ -1227,7 +1227,7 @@
         "username": "tiagoanoliveira",
         "stars": 2,
         "followers": 0,
-        "repos": 6,
+        "repos": 4,
         "prs": 4,
         "commits_year": 368
     },
@@ -1421,7 +1421,7 @@
         "followers": 0,
         "repos": 0,
         "prs": 0,
-        "commits_year": 20
+        "commits_year": 0
     },
     {
         "username": "matildeoliveirasilvafeup",
@@ -1701,7 +1701,7 @@
         "followers": 0,
         "repos": 4,
         "prs": 2,
-        "commits_year": 46
+        "commits_year": 44
     },
     {
         "username": "DevPedro19",
@@ -1725,7 +1725,7 @@
         "followers": 2,
         "repos": 5,
         "prs": 1,
-        "commits_year": 13
+        "commits_year": 12
     },
     {
         "username": "T0m2sT",
@@ -1741,7 +1741,7 @@
         "followers": 0,
         "repos": 2,
         "prs": 0,
-        "commits_year": 4
+        "commits_year": 3
     },
     {
         "username": "DaltonDjoesman",
@@ -1749,7 +1749,7 @@
         "followers": 8,
         "repos": 2,
         "prs": 4,
-        "commits_year": 13
+        "commits_year": 12
     },
     {
         "username": "Isaac3105",
@@ -1805,7 +1805,7 @@
         "followers": 0,
         "repos": 0,
         "prs": 0,
-        "commits_year": 1
+        "commits_year": 0
     },
     {
         "username": "TARB2006",
@@ -1833,11 +1833,11 @@
     },
     {
         "username": "Mews",
-        "stars": 140,
+        "stars": 142,
         "followers": 22,
         "repos": 28,
         "prs": 81,
-        "commits_year": 768
+        "commits_year": 552
     },
     {
         "username": "Antonio-PMorais",
@@ -1881,9 +1881,9 @@
     },
     {
         "username": "danielramaa",
-        "stars": 273,
+        "stars": 1,
         "followers": 15,
-        "repos": 101,
+        "repos": 4,
         "prs": 6,
         "commits_year": 52
     },
