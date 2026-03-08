@@ -11,8 +11,6 @@ jobs:
 
     permissions:
       contents: write
-    
-    environment: fetching
 
     steps:
       - uses: actions/checkout@v4
