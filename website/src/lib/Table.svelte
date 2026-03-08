@@ -82,10 +82,13 @@
 
         font-family: "Raleway", sans-serif;
         font-weight: 600;
+        font-size: 1.1rem;
 
         position: sticky;
         top: 0;
         z-index: 10;
+
+        padding: 10px 0 10px 0;
     }
 
     td {
@@ -95,6 +98,10 @@
 
         font-family: "Inter", sans-serif;
         font-weight: 400;
+
+        padding: 8px 0 8px 0;
+
+        font-size: 1rem;
     }
 
     tr:nth-child(odd) {
