@@ -1,1 +1,802 @@
-[]
+[
+    {
+        "username": "AlexandreNogueira202404206",
+        "stars": 0,
+        "followers": 0,
+        "repos": 1,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "AnaRodrigues-202405140",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "leonor1306",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "PeterF521",
+        "stars": 0,
+        "followers": 1,
+        "repos": 14,
+        "prs": 7,
+        "commits": 2
+    },
+    {
+        "username": "Jose-Maio",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "m1ke26",
+        "stars": 0,
+        "followers": 2,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "VascoGuimaraes",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "Victorg2705",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "riqui07",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "monteirou",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "up202406511",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "maryyyme",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "sofia55sousa",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "IrvingJ",
+        "stars": 0,
+        "followers": 1,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "iacular",
+        "stars": 0,
+        "followers": 6,
+        "repos": 7,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "Matilde126",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "sophcruz",
+        "stars": 1,
+        "followers": 0,
+        "repos": 3,
+        "prs": 0,
+        "commits": 26
+    },
+    {
+        "username": "rodrigoclx",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "gnclVZ1",
+        "stars": 0,
+        "followers": 0,
+        "repos": 1,
+        "prs": 0,
+        "commits": 8
+    },
+    {
+        "username": "BBrunoF",
+        "stars": 0,
+        "followers": 0,
+        "repos": 5,
+        "prs": 0,
+        "commits": 24
+    },
+    {
+        "username": "up202403853-tech",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "Art1czinho",
+        "stars": 0,
+        "followers": 0,
+        "repos": 3,
+        "prs": 0,
+        "commits": 8
+    },
+    {
+        "username": "joao-amaro-555",
+        "stars": 0,
+        "followers": 0,
+        "repos": 1,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "Drako131313",
+        "stars": 0,
+        "followers": 0,
+        "repos": 1,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "rodrigobarbosa06",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "Pedro2910",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "oliri",
+        "stars": 0,
+        "followers": 0,
+        "repos": 1,
+        "prs": 0,
+        "commits": 4
+    },
+    {
+        "username": "PJMonteiroo",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "JoaoLeppanen",
+        "stars": 0,
+        "followers": 0,
+        "repos": 1,
+        "prs": 0,
+        "commits": 1
+    },
+    {
+        "username": "af0nsx",
+        "stars": 0,
+        "followers": 0,
+        "repos": 3,
+        "prs": 7,
+        "commits": 136
+    },
+    {
+        "username": "GuiCNunes",
+        "stars": 0,
+        "followers": 19,
+        "repos": 3,
+        "prs": 17,
+        "commits": 385
+    },
+    {
+        "username": "RiquiFeup",
+        "stars": 0,
+        "followers": 2,
+        "repos": 5,
+        "prs": 3,
+        "commits": 79
+    },
+    {
+        "username": "up202405435",
+        "stars": 0,
+        "followers": 1,
+        "repos": 3,
+        "prs": 0,
+        "commits": 1
+    },
+    {
+        "username": "NunoMCoimbra",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "martim1705",
+        "stars": 0,
+        "followers": 2,
+        "repos": 8,
+        "prs": 0,
+        "commits": 111
+    },
+    {
+        "username": "maryjsane",
+        "stars": 0,
+        "followers": 0,
+        "repos": 3,
+        "prs": 1,
+        "commits": 137
+    },
+    {
+        "username": "henriquealbasini",
+        "stars": 0,
+        "followers": 1,
+        "repos": 3,
+        "prs": 1,
+        "commits": 17
+    },
+    {
+        "username": "afonsovilas",
+        "stars": 0,
+        "followers": 1,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "Martim-Ferreira-coder",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "GuiPinho07",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "lfscastanheira",
+        "stars": 0,
+        "followers": 0,
+        "repos": 2,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "Pedro-cunha23",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "dapinto-alx",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "pedroAR06",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "franciscOmOntes1",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "pedropribeiro13",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "Tiago-ML-Alves",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "filipecruz06",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "PedroPostiga",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "pedrovilaca-13",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "PriestMarmore",
+        "stars": 0,
+        "followers": 0,
+        "repos": 3,
+        "prs": 0,
+        "commits": 7
+    },
+    {
+        "username": "Afonso-Macarico",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "Irina21Cardoso",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "SofiaFerreira11",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "RodrigoCarvalho-prog",
+        "stars": 0,
+        "followers": 0,
+        "repos": 1,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "AfonsoBouca",
+        "stars": 0,
+        "followers": 0,
+        "repos": 1,
+        "prs": 0,
+        "commits": 1
+    },
+    {
+        "username": "Afonso-Morais-gig",
+        "stars": 0,
+        "followers": 0,
+        "repos": 1,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "EduardoRibeiro21",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "goncalocpplopes",
+        "stars": 0,
+        "followers": 3,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "joaolufinha27",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "up202405342",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "alialxnunez",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "up202405569",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "gusta24012006",
+        "stars": 0,
+        "followers": 0,
+        "repos": 1,
+        "prs": 0,
+        "commits": 1
+    },
+    {
+        "username": "Petruss99",
+        "stars": 0,
+        "followers": 1,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "pedrom455",
+        "stars": 0,
+        "followers": 0,
+        "repos": 2,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "AlexaM2",
+        "stars": 0,
+        "followers": 1,
+        "repos": 0,
+        "prs": 1,
+        "commits": 1
+    },
+    {
+        "username": "AnaRafael123",
+        "stars": 0,
+        "followers": 0,
+        "repos": 4,
+        "prs": 0,
+        "commits": 5
+    },
+    {
+        "username": "FranciscoCascalheira",
+        "stars": 0,
+        "followers": 0,
+        "repos": 1,
+        "prs": 0,
+        "commits": 2
+    },
+    {
+        "username": "marygou",
+        "stars": 0,
+        "followers": 0,
+        "repos": 4,
+        "prs": 1,
+        "commits": 3
+    },
+    {
+        "username": "sunye1010",
+        "stars": 0,
+        "followers": 1,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "AdrianaSilva145",
+        "stars": 0,
+        "followers": 1,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "AF016",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "raulsilva155",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "SIMAOMARTA",
+        "stars": 0,
+        "followers": 2,
+        "repos": 0,
+        "prs": 1,
+        "commits": 5
+    },
+    {
+        "username": "alexis-ramoss",
+        "stars": 0,
+        "followers": 0,
+        "repos": 2,
+        "prs": 0,
+        "commits": 33
+    },
+    {
+        "username": "Clara-S-Correia",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "kleitonsoares540-source",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "luiscarlosguimaraes",
+        "stars": 0,
+        "followers": 1,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "konguito06",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "goncalo066",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "Busterzin",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "9sousaaa",
+        "stars": 0,
+        "followers": 2,
+        "repos": 2,
+        "prs": 0,
+        "commits": 9
+    },
+    {
+        "username": "GuilhermePinho2332",
+        "stars": 0,
+        "followers": 4,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "GuilhermeSa202409670",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "Esha-Naveed",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "franciscapinto02",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "Kraknes",
+        "stars": 0,
+        "followers": 1,
+        "repos": 20,
+        "prs": 1,
+        "commits": 94
+    },
+    {
+        "username": "Pedro-M-25",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "Dario396",
+        "stars": 0,
+        "followers": 5,
+        "repos": 5,
+        "prs": 19,
+        "commits": 94
+    },
+    {
+        "username": "goncalopinto1",
+        "stars": 0,
+        "followers": 21,
+        "repos": 5,
+        "prs": 44,
+        "commits": 334
+    },
+    {
+        "username": "nunojpc10",
+        "stars": 0,
+        "followers": 1,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "ritacsa06",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "tiagoalvesrocha",
+        "stars": 0,
+        "followers": 1,
+        "repos": 1,
+        "prs": 1,
+        "commits": 28
+    },
+    {
+        "username": "aribeirorocha",
+        "stars": 0,
+        "followers": 1,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "tomasfgoncalves",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "PedroDinisFr",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "FilipeSilva06",
+        "stars": 0,
+        "followers": 0,
+        "repos": 0,
+        "prs": 0,
+        "commits": 0
+    },
+    {
+        "username": "ThomasTuerlinckx",
+        "stars": 0,
+        "followers": 0,
+        "repos": 2,
+        "prs": 0,
+        "commits": 28
+    },
+    {
+        "username": "Artur17M",
+        "stars": 0,
+        "followers": 7,
+        "repos": 0,
+        "prs": 0,
+        "commits": 59
+    }
+]
