@@ -68,7 +68,7 @@
 
         width: min(95vw, 60rem);
 
-        min-width: 600px;
+        min-width: 750px;
 
         height: 100%;
     }
