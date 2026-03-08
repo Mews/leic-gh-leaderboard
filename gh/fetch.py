@@ -4,6 +4,7 @@ import os
 import time
 import json
 import traceback
+from datetime import datetime
 
 dotenv.load_dotenv(".env")
 
@@ -19,7 +20,7 @@ with open("usernames.txt", "r") as f:
             USERNAMES.append(line)
 
 BATCH_SIZE = int(os.getenv("QUERY_BATCH_SIZE"))
-OUTPUT_FILE = os.getenv("DATA_SAVE_FILE")
+OUTPUT_FOLDER = os.getenv("OUTPUT_FOLDER")
 
 def fetch_batch(batch):
     query_parts = []
@@ -28,15 +29,10 @@ def fetch_batch(batch):
         u{i}: user(login: "{user}") {{
             login
             followers {{ totalCount }}
-            ownRepos: repositories(ownerAffiliations: OWNER, first: 100) {{
+            repos: repositories(ownerAffiliations: [OWNER, COLLABORATOR], first: 100) {{
                 totalCount
-                totalStargazers: nodes {{
-                    stargazerCount
-                }}
-            }}
-            collaboratorRepos: repositories(ownerAffiliations: COLLABORATOR, first: 100) {{
-                totalCount
-                totalStargazers: nodes {{
+                repoData: nodes {{
+                    name
                     stargazerCount
                 }}
             }}
@@ -57,6 +53,12 @@ def fetch_batch(batch):
 
 
 if __name__ == "__main__":
+    print(f"""
+--- Options ---
+BATCH_SIZE: {BATCH_SIZE}
+OUTPUT_FOLDER: {OUTPUT_FOLDER}
+""")
+
     results = []
 
     for i in range(0, len(USERNAMES), BATCH_SIZE):
@@ -67,25 +69,17 @@ if __name__ == "__main__":
             data = fetch_batch(batch)
             users_data = data.get('data', {})
 
-            with open("wow.txt", "w") as f:
-                f.write(str(data))
-            import sys
-            sys.exit(1)
-
             for key, val in users_data.items():
                 if val:
                     total_stars = 0
-                    if val['ownRepos']['totalStargazers']:
-                        total_stars = sum(repo['stargazerCount'] for repo in val['ownRepos']['totalStargazers'])
-                    if val['collaboratorRepos']['totalStargazers']:
-                        total_stars = sum(repo['stargazerCount'] for repo in val['collaboratorRepos']['totalStargazers'])
-                        
+                    if val['repos']['repoData']:
+                        total_stars += sum(repo['stargazerCount'] for repo in val['repos']['repoData'])
 
                     results.append({
                         "username": val['login'],
                         "stars": total_stars,
                         "followers": val['followers']['totalCount'],
-                        "repos": val['ownRepos']['totalCount']+val['collaboratorRepos']['totalCount'],
+                        "repos": val['repos']['totalCount'],
                         "prs": val['pullRequests']['totalCount'],
                         "commits_year": val['contributionsCollection']['totalCommitContributions']
                     })
@@ -95,7 +89,14 @@ if __name__ == "__main__":
 
         time.sleep(1)
 
-    with open(OUTPUT_FILE, "w") as f:
+    with open(os.path.join(OUTPUT_FOLDER, "userdata.json"), "w") as f:
         json.dump(results, f, indent=4)
     
-    print(f"Done! Saved data for {len(results)} users to {OUTPUT_FILE}")
+    with open(os.path.join(OUTPUT_FOLDER, "fetchdata.json"), "w") as f:
+        json.dump({
+            "date": datetime.now().strftime("%B %d, %Y"),
+            "user_count": len(results),
+        }
+        , f, indent=4)
+    
+    print(f"Done! Saved data for {len(results)} users to {OUTPUT_FOLDER}")
