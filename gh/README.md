@@ -11,6 +11,8 @@ Stars are considered only for repositories where the user is either an owner or 
 
 The fetch script currently can only aggregate the stars from the first 100 repos on a user's account. This is a limitation of GitHub's GraphQL api, and it can be solved in the future by using pagination.
 
+Only commits from the last 365 days are counted.
+
 Data returned by the GraphQL query might look something like this:
 ```json
 {

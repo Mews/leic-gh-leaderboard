@@ -81,7 +81,7 @@ OUTPUT_FOLDER: {OUTPUT_FOLDER}
                         "followers": val['followers']['totalCount'],
                         "repos": val['repos']['totalCount'],
                         "prs": val['pullRequests']['totalCount'],
-                        "commits_year": val['contributionsCollection']['totalCommitContributions']
+                        "commits": val['contributionsCollection']['totalCommitContributions']
                     })
 
         except Exception:
