@@ -8,7 +8,7 @@
 
 <header>
     <button class="hamburger" aria-label="Open Side Menu" onclick={()=>alert("click")}>
-        <img src="src/assets/hamburger.svg" alt="">
+        <img src="hamburger.svg" alt="">
     </button>
 
     <h1>
