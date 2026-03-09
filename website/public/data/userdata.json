@@ -721,10 +721,10 @@
     },
     {
         "username": "goncalopinto1",
-        "stars": 0,
+        "stars": 1,
         "followers": 21,
         "repos": 5,
-        "prs": 44,
+        "prs": 45,
         "commits": 334
     },
     {
@@ -1029,7 +1029,7 @@
         "followers": 15,
         "repos": 33,
         "prs": 4,
-        "commits": 263
+        "commits": 264
     },
     {
         "username": "up202404805",
@@ -1219,9 +1219,9 @@
         "username": "tiagoanoliveira",
         "stars": 2,
         "followers": 0,
-        "repos": 4,
+        "repos": 5,
         "prs": 4,
-        "commits": 368
+        "commits": 384
     },
     {
         "username": "Barra23",
@@ -1828,8 +1828,8 @@
         "stars": 142,
         "followers": 22,
         "repos": 28,
-        "prs": 84,
-        "commits": 805
+        "prs": 86,
+        "commits": 821
     },
     {
         "username": "Antonio-PMorais",
