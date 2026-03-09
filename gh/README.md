@@ -2,6 +2,7 @@ The `fetch.py` script requires the following environment variables to be set
 - GITHUB_TOKEN - A GitHub personal access token to access the GraphQL api.
 - OUTPUT_FOLDER - The path to store the data
 - QUERY_BATCH_SIZE - How many users to fetch in each query. This can be lowered if for any reason a batch is too big and denied by GitHub
+- MAX_RETIRES - How many times to retry the query for each batch.
 
 It will then create two files in OUTPUT_FOLDER. `userdata.json`, with the fetched github data, and `querydata.json`, with some data about the fetch, like the date and how many users were stored.
 

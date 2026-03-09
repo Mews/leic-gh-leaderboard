@@ -4,7 +4,7 @@ import os
 import time
 import json
 import traceback
-from datetime import datetime
+from datetime import datetime, timezone
 
 dotenv.load_dotenv(".env")
 
@@ -21,8 +21,9 @@ with open("usernames.txt", "r") as f:
 
 BATCH_SIZE = int(os.getenv("QUERY_BATCH_SIZE"))
 OUTPUT_FOLDER = os.getenv("OUTPUT_FOLDER")
+MAX_RETIRES = int(os.getenv("MAX_RETIRES"))
 
-def fetch_batch(batch):
+def fetch_batch(batch, retries=0):
     query_parts = []
     for i, user in enumerate(batch):
         query_parts.append(f"""
@@ -47,6 +48,37 @@ def fetch_batch(batch):
     
     response = requests.post(API_URL, json={'query': full_query}, headers=HEADERS)
     
+    # Implement the guidelines in
+    # https://docs.github.com/en/rest/using-the-rest-api/best-practices-for-using-the-rest-api?apiVersion=2022-11-28
+    if response.status_code == 403:
+        if retries >= 5:
+            print(response.content)
+            response.raise_for_status()
+        
+        if "retry-after" in response.headers:
+            retry_after = float(response.headers.get("retry-after"))
+            print(f"retry-after found\nwaiting for {retry_after} seconds")
+            time.sleep(retry_after)
+            return fetch_batch(batch, retries + 1)
+
+        elif "x-ratelimit-remaining" in response.headers and str(response.headers.get("x-ratelimit-remaining")).strip() == "0":
+            x_ratelimit_reset = int(response.headers.get("x-ratelimit-reset", datetime.now(timezone.utc).timestamp()))
+            
+            print(f"is x-ratelimit-remaining 0\nresuming after utc time {x_ratelimit_reset}")
+            
+            sleep_time = x_ratelimit_reset - int(datetime.now(timezone.utc).timestamp())
+            sleep_time = max(0, sleep_time) + 1
+
+            print(f"sleeping for {sleep_time} seconds")
+            time.sleep(sleep_time)
+            
+            return fetch_batch(batch, retries + 1)
+
+        else:
+            print(f"no rate limit headers present\nretry number {retries}\nwaiting for{60 + (2**retries)}")
+            time.sleep(60 + (2**retries))
+            return fetch_batch(batch, retries + 1)
+
     response.raise_for_status()
     
     return response.json()
