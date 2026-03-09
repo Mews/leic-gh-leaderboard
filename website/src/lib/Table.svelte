@@ -52,9 +52,11 @@
 
     let selectedAnyHeader: boolean = $state(false);
 
-    function getSortArrow(): string {
-        if (!selectedAnyHeader) {return ""};
-        return (sortAscending ? "⬆" : "⬇");
+    function getSortArrow() {
+        return (sortAscending ? 
+            "up-arrow.svg" : 
+            "down-arrow.svg"
+        );
     }
     
 
@@ -66,60 +68,67 @@
 <table>
     <thead>
         <tr>
-            <th style="width: 10%;" onclick={()=>{changeSort("rank");selectedAnyHeader=true}}>
+            <th style="width: 8.5%;" onclick={()=>{changeSort("rank");selectedAnyHeader=true}}>
                 <div class="header-text">
                     Rank
-                    <span class="header-sort-indicator">
-                        {sortBy==="rank" ? (getSortArrow()) : ""}
-                    </span>
+                    {#if sortBy === "rank" && selectedAnyHeader}
+                        <span class="header-sort-indicator" style="mask: url('{getSortArrow()}'); mask-size: contain;">
+                        </span>
+                    {/if}
                 </div>
             </th>
             <th style="width: 30%;" onclick={()=>{{changeSort("username");selectedAnyHeader=true}}}>
                 <div class="header-text">
                     GitHub
-                    <span class="header-sort-indicator">
-                        {sortBy==="username" ? (getSortArrow()) : ""}
-                    </span>
+                    {#if sortBy === "username" && selectedAnyHeader}
+                        <span class="header-sort-indicator" style="mask: url('{getSortArrow()}'); mask-size: contain;">
+                        </span>
+                    {/if}
                 </div>
             </th>
             <th style="width: 12%;" onclick={()=>{changeSort("stars");selectedAnyHeader=true}}>
                 <div class="header-text">
                     Stars
-                    <span class="header-sort-indicator">
-                        {sortBy==="stars" ? (getSortArrow()) : ""}
-                    </span>
+                    {#if sortBy === "stars" && selectedAnyHeader}
+                        <span class="header-sort-indicator" style="mask: url('{getSortArrow()}'); mask-size: contain;">
+                        </span>
+                    {/if}
                 </div>
             </th>
             <th style="width: 12%;" onclick={()=>{changeSort("prs");selectedAnyHeader=true}}>
                 <div class="header-text"> 
                     PRs
-                    <span class="header-sort-indicator">
-                        {sortBy==="prs" ? (getSortArrow()) : ""}
-                    </span>
+                    {#if sortBy === "prs" && selectedAnyHeader}
+                        <span class="header-sort-indicator" style="mask: url('{getSortArrow()}'); mask-size: contain;">
+                        </span>
+                    {/if}
                 </div>
             </th>
             <th style="width: 12%;" onclick={()=>{changeSort("commits");selectedAnyHeader=true}}>
                 <div class="header-text">
                     Commits
-                    <span class="header-sort-indicator">
-                        {sortBy==="commits" ? (getSortArrow()) : ""}
-                    </span>
+                    {#if sortBy === "commits" && selectedAnyHeader}
+                        <span class="header-sort-indicator" style="mask: url('{getSortArrow()}'); mask-size: contain;">
+                        </span>
+                    {/if}
                 </div>
             </th>
-            <th style="width: 12%;" onclick={()=>{changeSort("followers");selectedAnyHeader=true}}>
+            <th style="width: 13.5%;" onclick={()=>{changeSort("followers");selectedAnyHeader=true}}>
                 <div class="header-text">
                     Followers
-                    <span class="header-sort-indicator">
-                        {sortBy==="followers" ? (getSortArrow()) : ""}
-                    </span>
+                    {#if sortBy === "followers" && selectedAnyHeader}
+                        <span class="header-sort-indicator" style="mask: url('{getSortArrow()}'); mask-size: contain;">
+                        </span>
+                    {/if}
                 </div>
             </th>
             <th style="width: 12%;" onclick={()=>{changeSort("repos");selectedAnyHeader=true}}>
                 <div class="header-text">
                     Repos
-                    <span class="header-sort-indicator">
-                        {sortBy==="repos" ? (getSortArrow()) : ""}
-                    </span>
+                    {#if sortBy === "repos" && selectedAnyHeader}
+                        <span class="header-sort-indicator" style="mask: url('{getSortArrow()}'); mask-size: contain;">
+                        </span>
+                    {/if}
                 </div>
             </th>
         </tr>
@@ -216,8 +225,13 @@
     span.header-sort-indicator {
         position: absolute;
 
-        right: -15px;
-        bottom: -1px;
+        right: -24px;
+        bottom: -0px;
+
+        height: 22px;
+        width: 22px;
+
+        background-color: currentColor;
     }
 
     td {
