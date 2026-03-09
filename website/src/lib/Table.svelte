@@ -39,13 +39,13 @@
     </thead>
 
     <tbody>
-        {#await filteredStudents}
+        {#if students.length === 0}
             <tr>
                 <td colspan=7>Loading...</td>
             </tr>
-        {:then students} 
+        {:else} 
             
-            {#each students as student, i (student.username)}
+            {#each filteredStudents as student, i (student.username)}
                 <tr animate:flip={{duration:500}}>
                     <td onmouseenter={() => hoveredRankIndex = i} onmouseleave={() => hoveredRankIndex = undefined}>
                         {giveMedal(student.rank)}{student.rank}
@@ -66,7 +66,7 @@
                 <td colspan=7></td>
             </tr>
 
-        {/await}
+        {/if}
     </tbody>
 </table>
 </div>
