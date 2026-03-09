@@ -25,7 +25,7 @@ jobs:
         working-directory: ./gh
         env:
           GITHUB_TOKEN: ${{ secrets.GH_PAT }}
-          OUTPUT_FOLDER: '../website/public'
+          OUTPUT_FOLDER: '../website/public/data'
           QUERY_BATCH_SIZE: 10
           MAX_RETIRES: 5
         run: |

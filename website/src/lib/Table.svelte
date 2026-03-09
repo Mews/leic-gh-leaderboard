@@ -54,8 +54,8 @@
 
     function getSortArrow() {
         return (sortAscending ? 
-            "up-arrow.svg" : 
-            "down-arrow.svg"
+            "assets/up-arrow.svg" : 
+            "assets/down-arrow.svg"
         );
     }
     

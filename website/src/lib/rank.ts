@@ -10,7 +10,7 @@ export type Student = {
 };
 
 export async function rankStudents() {
-    const response = await fetch('userdata.json');
+    const response = await fetch('data/userdata.json');
     const students = await response.json();
 
     students.forEach(

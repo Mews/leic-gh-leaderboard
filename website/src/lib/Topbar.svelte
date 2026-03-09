@@ -1,6 +1,6 @@
 <script lang="ts">
     const fetchData = (async () => {
-        const response = await fetch('fetchdata.json');
+        const response = await fetch('data/fetchdata.json');
         const data = await response.json();
         return data;
     })()
@@ -8,7 +8,7 @@
 
 <header>
     <button class="hamburger" aria-label="Open Side Menu" onclick={()=>alert("click")}>
-        <img src="hamburger.svg" alt="">
+        <img src="assets/hamburger.svg" alt="">
     </button>
 
     <h1>
