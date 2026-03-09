@@ -67,25 +67,60 @@
     <thead>
         <tr>
             <th style="width: 10%;" onclick={()=>{changeSort("rank");selectedAnyHeader=true}}>
-                Rank {sortBy==="rank" ? (getSortArrow()) : ""}
+                <div class="header-text">
+                    Rank
+                    <span class="header-sort-indicator">
+                        {sortBy==="rank" ? (getSortArrow()) : ""}
+                    </span>
+                </div>
             </th>
             <th style="width: 30%;" onclick={()=>{{changeSort("username");selectedAnyHeader=true}}}>
-                GitHub {sortBy==="username" ? (getSortArrow()) : ""}
+                <div class="header-text">
+                    GitHub
+                    <span class="header-sort-indicator">
+                        {sortBy==="username" ? (getSortArrow()) : ""}
+                    </span>
+                </div>
             </th>
             <th style="width: 12%;" onclick={()=>{changeSort("stars");selectedAnyHeader=true}}>
-                Stars {sortBy==="stars" ? (getSortArrow()) : ""}
+                <div class="header-text">
+                    Stars
+                    <span class="header-sort-indicator">
+                        {sortBy==="stars" ? (getSortArrow()) : ""}
+                    </span>
+                </div>
             </th>
             <th style="width: 12%;" onclick={()=>{changeSort("prs");selectedAnyHeader=true}}>
-                PRs {sortBy==="prs" ? (getSortArrow()) : ""}
+                <div class="header-text"> 
+                    PRs
+                    <span class="header-sort-indicator">
+                        {sortBy==="prs" ? (getSortArrow()) : ""}
+                    </span>
+                </div>
             </th>
             <th style="width: 12%;" onclick={()=>{changeSort("commits");selectedAnyHeader=true}}>
-                Commits {sortBy==="commits" ? (getSortArrow()) : ""}
+                <div class="header-text">
+                    Commits
+                    <span class="header-sort-indicator">
+                        {sortBy==="commits" ? (getSortArrow()) : ""}
+                    </span>
+                </div>
             </th>
             <th style="width: 12%;" onclick={()=>{changeSort("followers");selectedAnyHeader=true}}>
-                Followers {sortBy==="followers" ? (getSortArrow()) : ""}
+                <div class="header-text">
+                    Followers
+                    <span class="header-sort-indicator">
+                        {sortBy==="followers" ? (getSortArrow()) : ""}
+                    </span>
+                </div>
             </th>
             <th style="width: 12%;" onclick={()=>{changeSort("repos");selectedAnyHeader=true}}>
-                Repos {sortBy==="repos" ? (getSortArrow()) : ""}
+                <div class="header-text">
+                    Repos
+                    <span class="header-sort-indicator">
+                        {sortBy==="repos" ? (getSortArrow()) : ""}
+                    </span>
+                </div>
             </th>
         </tr>
     </thead>
@@ -142,7 +177,7 @@
 
         width: min(95vw, 60rem);
 
-        min-width: 750px;
+        min-width: 900px;
 
         height: 100%;
     }
@@ -167,8 +202,22 @@
         transition: color 0.2 ease-in-out;
     }
 
+    div.header-text {
+        position: relative;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     th:hover {
         color: var(--accent-1);
+    }
+
+    span.header-sort-indicator {
+        position: absolute;
+
+        right: -15px;
+        bottom: -1px;
     }
 
     td {
