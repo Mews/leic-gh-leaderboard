@@ -1,17 +1,17 @@
+export type Student = {
+    username: string;
+    score: number;
+    stars: number;
+    commits: number;
+    prs: number;
+    repos: number;
+    followers: number;
+    rank: number;
+};
+
 export async function rankStudents() {
     const response = await fetch('userdata.json');
     const students = await response.json();
-
-    type Student = {
-        username: string;
-        score: number;
-        stars: number;
-        commits: number;
-        prs: number;
-        repos: number;
-        followers: number;
-        rank: number;
-    };
 
     students.forEach(
         (student: Student) => {

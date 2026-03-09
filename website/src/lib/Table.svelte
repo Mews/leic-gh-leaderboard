@@ -1,13 +1,25 @@
 <script lang="ts">
     import SearchBar from "./SearchBar.svelte";
     import { rankStudents, giveMedal } from "./rank";
+    import type { Student } from "./rank";
 
     import { fade } from "svelte/transition";
+    import { flip } from "svelte/animate";
+    import { onMount } from "svelte";
 
     let query = $state("");
     let hoveredRankIndex: number | undefined = $state(undefined);
 
-    const rankedStudents = (async ()=>await rankStudents())();
+    let students = $state<Student[]>([]);
+
+    let filteredStudents = $derived(
+        students.filter(student => student.username.toLowerCase().includes(query.toLowerCase()))
+    );
+
+    onMount(async () => {
+        students = await rankStudents();
+    });
+
 </script>
 
 <SearchBar bind:query={query}/>
@@ -27,15 +39,14 @@
     </thead>
 
     <tbody>
-        {#await rankedStudents}
+        {#if students.length === 0}
             <tr>
                 <td colspan=7>Loading...</td>
             </tr>
-        {:then students} 
+        {:else} 
             
-            {#each students as student, i}
-                {#if student.username.toLowerCase().includes(query.toLowerCase())}
-                <tr>
+            {#each filteredStudents as student, i (student.username)}
+                <tr animate:flip={{duration:500}}>
                     <td onmouseenter={() => hoveredRankIndex = i} onmouseleave={() => hoveredRankIndex = undefined}>
                         {giveMedal(student.rank)}{student.rank}
                         {#if hoveredRankIndex === i}
@@ -49,14 +60,13 @@
                     <td>{student.followers}</td>
                     <td>{student.repos}</td>
                 </tr>
-                {/if}
             {/each}
 
             <tr class="padding-row">
                 <td colspan=7></td>
             </tr>
 
-        {/await}
+        {/if}
     </tbody>
 </table>
 </div>
@@ -65,9 +75,11 @@
     div.table {
         margin-top: 2rem;
         height: 65vh;
-        overflow: auto;
+        overflow-y: scroll;
+        overflow-x: auto;
         border-radius: 20px;
         max-width: 95vw;
+        background-color: var(--table-row-1);
     }
 
     table {
