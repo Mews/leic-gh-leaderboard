@@ -53,7 +53,7 @@
                             <div class="score-viewer" transition:fade={{duration:200}}>{student.score.toFixed(1)}</div>
                         {/if}
                     </td>
-                    <td class="prevent-select" onclick={()=>window.open(`https://github.com/${student.username}`)}>
+                    <td onclick={()=>window.open(`https://github.com/${student.username}`)}>
                         {student.username}
                     </td>
                     <td>{student.stars}</td>
@@ -126,6 +126,8 @@
         position: relative;
         
         transition: color 0.2s ease-in-out;
+
+        user-select: none;
     }
 
     td:hover {
