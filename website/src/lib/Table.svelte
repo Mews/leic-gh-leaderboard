@@ -50,6 +50,14 @@
         }
     }
 
+    let selectedAnyHeader: boolean = $state(false);
+
+    function getSortArrow(): string {
+        if (!selectedAnyHeader) {return ""};
+        return (sortAscending ? "⬆" : "⬇");
+    }
+    
+
 </script>
 
 <SearchBar bind:query={query}/>
@@ -58,26 +66,26 @@
 <table>
     <thead>
         <tr>
-            <th style="width: 10%;" onclick={()=>changeSort("rank")}>
-                Rank
+            <th style="width: 10%;" onclick={()=>{changeSort("rank");selectedAnyHeader=true}}>
+                Rank {sortBy==="rank" ? (getSortArrow()) : ""}
             </th>
-            <th style="width: 30%;" onclick={()=>changeSort("username")}>
-                GitHub
+            <th style="width: 30%;" onclick={()=>{{changeSort("username");selectedAnyHeader=true}}}>
+                GitHub {sortBy==="username" ? (getSortArrow()) : ""}
             </th>
-            <th style="width: 12%;" onclick={()=>changeSort("stars")}>
-                Stars
+            <th style="width: 12%;" onclick={()=>{changeSort("stars");selectedAnyHeader=true}}>
+                Stars {sortBy==="stars" ? (getSortArrow()) : ""}
             </th>
-            <th style="width: 12%;" onclick={()=>changeSort("prs")}>
-                PRs
+            <th style="width: 12%;" onclick={()=>{changeSort("prs");selectedAnyHeader=true}}>
+                PRs {sortBy==="prs" ? (getSortArrow()) : ""}
             </th>
-            <th style="width: 12%;" onclick={()=>changeSort("commits")}>
-                Commits
+            <th style="width: 12%;" onclick={()=>{changeSort("commits");selectedAnyHeader=true}}>
+                Commits {sortBy==="commits" ? (getSortArrow()) : ""}
             </th>
-            <th style="width: 12%;" onclick={()=>changeSort("followers")}>
-                Followers
+            <th style="width: 12%;" onclick={()=>{changeSort("followers");selectedAnyHeader=true}}>
+                Followers {sortBy==="followers" ? (getSortArrow()) : ""}
             </th>
-            <th style="width: 12%;" onclick={()=>changeSort("repos")}>
-                Repos
+            <th style="width: 12%;" onclick={()=>{changeSort("repos");selectedAnyHeader=true}}>
+                Repos {sortBy==="repos" ? (getSortArrow()) : ""}
             </th>
         </tr>
     </thead>
