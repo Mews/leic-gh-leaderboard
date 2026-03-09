@@ -89,6 +89,7 @@ if __name__ == "__main__":
 --- Options ---
 BATCH_SIZE: {BATCH_SIZE}
 OUTPUT_FOLDER: {OUTPUT_FOLDER}
+MAX_RETRIES: {MAX_RETIRES}
 """)
 
     results = []
