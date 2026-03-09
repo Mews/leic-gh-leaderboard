@@ -4,6 +4,7 @@
     import type { Student } from "./rank";
 
     import { fade } from "svelte/transition";
+    import { flip } from "svelte/animate";
     import { onMount } from "svelte";
 
     let query = $state("");
@@ -44,8 +45,8 @@
             </tr>
         {:then students} 
             
-            {#each students as student, i}
-                <tr>
+            {#each students as student, i (student.username)}
+                <tr animate:flip={{duration:500}}>
                     <td onmouseenter={() => hoveredRankIndex = i} onmouseleave={() => hoveredRankIndex = undefined}>
                         {giveMedal(student.rank)}{student.rank}
                         {#if hoveredRankIndex === i}
@@ -77,6 +78,7 @@
         overflow: auto;
         border-radius: 20px;
         max-width: 95vw;
+        background-color: var(--table-row-1);
     }
 
     table {
