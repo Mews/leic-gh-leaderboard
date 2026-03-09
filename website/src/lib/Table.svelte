@@ -75,7 +75,8 @@
     div.table {
         margin-top: 2rem;
         height: 65vh;
-        overflow: auto;
+        overflow-y: scroll;
+        overflow-x: auto;
         border-radius: 20px;
         max-width: 95vw;
         background-color: var(--table-row-1);
