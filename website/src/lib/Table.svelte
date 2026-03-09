@@ -1,13 +1,24 @@
 <script lang="ts">
     import SearchBar from "./SearchBar.svelte";
     import { rankStudents, giveMedal } from "./rank";
+    import type { Student } from "./rank";
 
     import { fade } from "svelte/transition";
+    import { onMount } from "svelte";
 
     let query = $state("");
     let hoveredRankIndex: number | undefined = $state(undefined);
 
-    const rankedStudents = (async ()=>await rankStudents())();
+    let students = $state<Student[]>([]);
+
+    let filteredStudents = $derived(
+        students.filter(student => student.username.toLowerCase().includes(query.toLowerCase()))
+    );
+
+    onMount(async () => {
+        students = await rankStudents();
+    });
+
 </script>
 
 <SearchBar bind:query={query}/>
@@ -27,14 +38,13 @@
     </thead>
 
     <tbody>
-        {#await rankedStudents}
+        {#await filteredStudents}
             <tr>
                 <td colspan=7>Loading...</td>
             </tr>
         {:then students} 
             
             {#each students as student, i}
-                {#if student.username.toLowerCase().includes(query.toLowerCase())}
                 <tr>
                     <td onmouseenter={() => hoveredRankIndex = i} onmouseleave={() => hoveredRankIndex = undefined}>
                         {giveMedal(student.rank)}{student.rank}
@@ -49,7 +59,6 @@
                     <td>{student.followers}</td>
                     <td>{student.repos}</td>
                 </tr>
-                {/if}
             {/each}
 
             <tr class="padding-row">
