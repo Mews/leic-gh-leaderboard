@@ -32,6 +32,7 @@ jobs:
           OUTPUT_FOLDER: '../website/public/data'
           QUERY_BATCH_SIZE: 10
           MAX_RETIRES: 5
+          PYTHONUNBUFFERED: 1
         run: python fetch.py
       
       - name: Commit and push changes
