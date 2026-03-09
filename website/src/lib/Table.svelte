@@ -12,13 +12,53 @@
 
     let students = $state<Student[]>([]);
 
+    let sortBy: keyof Student = $state("rank");
+    let sortAscending: boolean = $state(true);
+
     let filteredStudents = $derived(
         students.filter(student => student.username.toLowerCase().includes(query.toLowerCase()))
+        .sort((a:Student, b:Student)=>{
+            const valA = a[sortBy];
+            const valB = b[sortBy];
+
+            if (typeof valA === 'string' && typeof valB === 'string') {
+                const strA = valA as string;
+                const strB = valB as string;
+                return sortAscending 
+                    ? strA.localeCompare(strB) 
+                    : strB.localeCompare(strA);
+            }
+
+            return sortAscending 
+                ? (valA as number) - (valB as number) 
+                : (valB as number) - (valA as number);
+        })
     );
 
     onMount(async () => {
         students = await rankStudents();
     });
+    
+    function changeSort(newSortBy: keyof Student) {
+        if (sortBy === newSortBy) {
+            sortAscending = !sortAscending;
+        }
+        else {
+            const naturallyAscending = ["rank", "username"];
+            sortAscending = naturallyAscending.includes(newSortBy);
+            sortBy = newSortBy;
+        }
+    }
+
+    let selectedAnyHeader: boolean = $state(false);
+
+    function getSortArrow() {
+        return (sortAscending ? 
+            "up-arrow.svg" : 
+            "down-arrow.svg"
+        );
+    }
+    
 
 </script>
 
@@ -28,13 +68,69 @@
 <table>
     <thead>
         <tr>
-            <th style="width: 10%;">Rank</th>
-            <th style="width: 30%;">GitHub</th>
-            <th style="width: 12%;">Stars</th>
-            <th style="width: 12%;">PRs</th>
-            <th style="width: 12%;">Commits</th>
-            <th style="width: 12%;">Followers</th>
-            <th style="width: 12%;">Repos</th>
+            <th style="width: 8.5%;" onclick={()=>{changeSort("rank");selectedAnyHeader=true}}>
+                <div class="header-text">
+                    Rank
+                    {#if sortBy === "rank" && selectedAnyHeader}
+                        <span class="header-sort-indicator" style="mask: url('{getSortArrow()}'); mask-size: contain;">
+                        </span>
+                    {/if}
+                </div>
+            </th>
+            <th style="width: 30%;" onclick={()=>{{changeSort("username");selectedAnyHeader=true}}}>
+                <div class="header-text">
+                    GitHub
+                    {#if sortBy === "username" && selectedAnyHeader}
+                        <span class="header-sort-indicator" style="mask: url('{getSortArrow()}'); mask-size: contain;">
+                        </span>
+                    {/if}
+                </div>
+            </th>
+            <th style="width: 12%;" onclick={()=>{changeSort("stars");selectedAnyHeader=true}}>
+                <div class="header-text">
+                    Stars
+                    {#if sortBy === "stars" && selectedAnyHeader}
+                        <span class="header-sort-indicator" style="mask: url('{getSortArrow()}'); mask-size: contain;">
+                        </span>
+                    {/if}
+                </div>
+            </th>
+            <th style="width: 12%;" onclick={()=>{changeSort("prs");selectedAnyHeader=true}}>
+                <div class="header-text"> 
+                    PRs
+                    {#if sortBy === "prs" && selectedAnyHeader}
+                        <span class="header-sort-indicator" style="mask: url('{getSortArrow()}'); mask-size: contain;">
+                        </span>
+                    {/if}
+                </div>
+            </th>
+            <th style="width: 12%;" onclick={()=>{changeSort("commits");selectedAnyHeader=true}}>
+                <div class="header-text">
+                    Commits
+                    {#if sortBy === "commits" && selectedAnyHeader}
+                        <span class="header-sort-indicator" style="mask: url('{getSortArrow()}'); mask-size: contain;">
+                        </span>
+                    {/if}
+                </div>
+            </th>
+            <th style="width: 13.5%;" onclick={()=>{changeSort("followers");selectedAnyHeader=true}}>
+                <div class="header-text">
+                    Followers
+                    {#if sortBy === "followers" && selectedAnyHeader}
+                        <span class="header-sort-indicator" style="mask: url('{getSortArrow()}'); mask-size: contain;">
+                        </span>
+                    {/if}
+                </div>
+            </th>
+            <th style="width: 12%;" onclick={()=>{changeSort("repos");selectedAnyHeader=true}}>
+                <div class="header-text">
+                    Repos
+                    {#if sortBy === "repos" && selectedAnyHeader}
+                        <span class="header-sort-indicator" style="mask: url('{getSortArrow()}'); mask-size: contain;">
+                        </span>
+                    {/if}
+                </div>
+            </th>
         </tr>
     </thead>
 
@@ -46,7 +142,7 @@
         {:else} 
             
             {#each filteredStudents as student, i (student.username)}
-                <tr animate:flip={{duration:500}}>
+                <tr>
                     <td onmouseenter={() => hoveredRankIndex = i} onmouseleave={() => hoveredRankIndex = undefined}>
                         {giveMedal(student.rank)}{student.rank}
                         {#if hoveredRankIndex === i}
@@ -90,7 +186,7 @@
 
         width: min(95vw, 60rem);
 
-        min-width: 750px;
+        min-width: 900px;
 
         height: 100%;
     }
@@ -109,6 +205,33 @@
         z-index: 10;
 
         padding: 10px 0 10px 0;
+
+        user-select: none;
+
+        transition: color 0.2 ease-in-out;
+    }
+
+    div.header-text {
+        position: relative;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    th:hover {
+        color: var(--accent-1);
+    }
+
+    span.header-sort-indicator {
+        position: absolute;
+
+        right: -24px;
+        bottom: -0px;
+
+        height: 22px;
+        width: 22px;
+
+        background-color: currentColor;
     }
 
     td {
