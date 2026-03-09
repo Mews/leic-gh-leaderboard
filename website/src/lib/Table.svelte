@@ -90,7 +90,7 @@
         {:else} 
             
             {#each filteredStudents as student, i (student.username)}
-                <tr animate:flip={{duration:500}}>
+                <tr>
                     <td onmouseenter={() => hoveredRankIndex = i} onmouseleave={() => hoveredRankIndex = undefined}>
                         {giveMedal(student.rank)}{student.rank}
                         {#if hoveredRankIndex === i}
