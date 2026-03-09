@@ -12,13 +12,43 @@
 
     let students = $state<Student[]>([]);
 
+    let sortBy: keyof Student = $state("rank");
+    let sortAscending: boolean = $state(true);
+
     let filteredStudents = $derived(
         students.filter(student => student.username.toLowerCase().includes(query.toLowerCase()))
+        .sort((a:Student, b:Student)=>{
+            const valA = a[sortBy];
+            const valB = b[sortBy];
+
+            if (typeof valA === 'string' && typeof valB === 'string') {
+                const strA = valA as string;
+                const strB = valB as string;
+                return sortAscending 
+                    ? strA.localeCompare(strB) 
+                    : strB.localeCompare(strA);
+            }
+
+            return sortAscending 
+                ? (valA as number) - (valB as number) 
+                : (valB as number) - (valA as number);
+        })
     );
 
     onMount(async () => {
         students = await rankStudents();
     });
+    
+    function changeSort(newSortBy: keyof Student) {
+        if (sortBy === newSortBy) {
+            sortAscending = !sortAscending;
+        }
+        else {
+            const naturallyAscending = ["rank", "username"];
+            sortAscending = naturallyAscending.includes(newSortBy);
+            sortBy = newSortBy;
+        }
+    }
 
 </script>
 
@@ -28,13 +58,27 @@
 <table>
     <thead>
         <tr>
-            <th style="width: 10%;">Rank</th>
-            <th style="width: 30%;">GitHub</th>
-            <th style="width: 12%;">Stars</th>
-            <th style="width: 12%;">PRs</th>
-            <th style="width: 12%;">Commits</th>
-            <th style="width: 12%;">Followers</th>
-            <th style="width: 12%;">Repos</th>
+            <th style="width: 10%;" onclick={()=>changeSort("rank")}>
+                Rank
+            </th>
+            <th style="width: 30%;" onclick={()=>changeSort("username")}>
+                GitHub
+            </th>
+            <th style="width: 12%;" onclick={()=>changeSort("stars")}>
+                Stars
+            </th>
+            <th style="width: 12%;" onclick={()=>changeSort("prs")}>
+                PRs
+            </th>
+            <th style="width: 12%;" onclick={()=>changeSort("commits")}>
+                Commits
+            </th>
+            <th style="width: 12%;" onclick={()=>changeSort("followers")}>
+                Followers
+            </th>
+            <th style="width: 12%;" onclick={()=>changeSort("repos")}>
+                Repos
+            </th>
         </tr>
     </thead>
 
@@ -109,6 +153,8 @@
         z-index: 10;
 
         padding: 10px 0 10px 0;
+
+        user-select: none;
     }
 
     td {
