@@ -155,6 +155,12 @@
         padding: 10px 0 10px 0;
 
         user-select: none;
+
+        transition: color 0.2 ease-in-out;
+    }
+
+    th:hover {
+        color: var(--accent-1);
     }
 
     td {
