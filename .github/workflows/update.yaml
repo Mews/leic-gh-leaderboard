@@ -21,6 +21,10 @@ jobs:
           python-version: '3.12.4'
           cache: 'pip'
       
+      - name: Install requirements
+        working-directory: ./gh
+        run: pip install -r requirements.txt
+
       - name: Run fetch script
         working-directory: ./gh
         env:
@@ -28,9 +32,7 @@ jobs:
           OUTPUT_FOLDER: '../website/public/data'
           QUERY_BATCH_SIZE: 10
           MAX_RETIRES: 5
-        run: |
-          pip install -r requirements.txt
-          python fetch.py
+        run: python fetch.py
       
       - name: Commit and push changes
         run: |
