@@ -22,6 +22,10 @@
         margin: 0;
     }
 
+    :global(.prevent-select) {
+        user-select: none;
+    }
+
     main {
         display: flex;
         flex-direction: column;

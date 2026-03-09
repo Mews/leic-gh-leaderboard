@@ -53,7 +53,9 @@
                             <div class="score-viewer" transition:fade={{duration:200}}>{student.score.toFixed(1)}</div>
                         {/if}
                     </td>
-                    <td>{student.username}</td>
+                    <td class="prevent-select" onclick={()=>window.open(`https://github.com/${student.username}`)}>
+                        {student.username}
+                    </td>
                     <td>{student.stars}</td>
                     <td>{student.prs}</td>
                     <td>{student.commits}</td>
@@ -122,6 +124,12 @@
         font-size: 1rem;
 
         position: relative;
+        
+        transition: color 0.2s ease-in-out;
+    }
+
+    td:hover {
+        color: var(--accent-1);
     }
 
     tr:nth-child(odd) {
