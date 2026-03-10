@@ -1,6 +1,13 @@
 <script>
     import Topbar from "./lib/Topbar.svelte";
     import Table from "./lib/Table.svelte";
+    import SideMenu from "./lib/SideMenu.svelte";
+
+    let sideMenuOpen = $state(false);
+
+    function toggleMenu() {
+        sideMenuOpen = !sideMenuOpen;
+    }
 
 </script>
 <svelte:head>
@@ -9,7 +16,11 @@
 
 </svelte:head>
 
-<Topbar />
+<Topbar openSideMenu={toggleMenu}/>
+
+{#if sideMenuOpen}
+    <SideMenu closeSideMenu={toggleMenu} />
+{/if}
 
 <main>
     <Table />
