@@ -178,6 +178,8 @@
         border-radius: 20px;
         max-width: 95vw;
         background-color: var(--table-row-1);
+
+        scrollbar-color: var(--accent-2) var(--accent-3);
     }
 
     table {
