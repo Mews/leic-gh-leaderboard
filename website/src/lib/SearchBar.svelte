@@ -26,7 +26,7 @@
         width: 53vw;
         border-bottom: 4px solid var(--accent-2);
         padding-left: 1rem;
-        transform: translateY(-2px);
+        transform: translateY(-2px) scale(1.05);
     }
 
 
