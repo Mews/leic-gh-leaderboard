@@ -1,25 +1,99 @@
 <script lang="ts">
+    import { marked } from 'marked';
     import { fly, fade } from 'svelte/transition';
 
-    let { closeSideMenu } = $props();
+    let { closeSideMenu, showModal } = $props();
 
     let clickedButton: string | undefined = $state();
 
+    const faqMarkdown = `
+# FAQ
+
+## I don't want to be on this leaderboard!
+If your account is ranked here and you don't want it to be, you can just contact me and I'll remove it right away!
+
+## I want to be on this leaderboard!
+As long as you have been a LEIC student at FEUP, you're welcome to join!\n
+Just contact me and I'll add you to the leaderboard.
+
+## Where do you get student's GitHubs from?
+The list of student's GitHub usernames comes from:
+- The members of some GitHub organizations created for some classes.
+- Public spreadsheets from some classes.
+- Manually adding some people.
+
+## How are scores calculated?
+Each student's score is calculated according to this formula:\n
+\`Score =  Stars × 50 + Commits × 1 + Pull Requests × 3.5 + Repos × 1 + Followers × 1\`
+
+Ties are then broken using stars, prs, commits, followers, repos, and username (lexicographical order) in that order.\n 
+
+The coefficients are somewhat arbitrarily chosen, but the goal is to value high value contributions more.
+Improvement suggestions are welcome!
+
+## When are scores updated?
+Scores are updated once a week, at 00:00 Sunday UTC, through a GitHub action.\n
+You can check when it was last updated in the top right corner.\n
+You can also check the status of the last fetch in the [GitHub action page](https://github.com/Mews/leic-gh-leaderboard/actions/workflows/update.yaml).
+
+## Do private contributions count?
+Student data is fetched using GitHub's GraphQL api, which *usually* cannot see private repos / contributions.\n
+So no, private contributions usually aren't counted, with some exceptions, like if you specifically make them visible.
+`;
+
+    const contactMarkdown = `
+# Contact
+
+Feel free to reach out to me!\n
+You can contact me through any of the following channels.
+
+### Discord
+mews75
+
+### Email
+ar754456@gmail.com
+`;
+
+    const licenseMarkdown = `
+# License
+
+\`\`\`
+MIT License
+
+Copyright (c) 2026 António Charrão
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+\`\`\`
+`;
+
     const menuItems = [
         {
-            "text": "FAQ", "func": () => alert("lol")
+            "text": "FAQ", "func": () => showModal(marked(faqMarkdown))
         },
         {
-            "text": "Credits", "func": () => alert("lol")
-        },
-        {
-            "text": "About", "func": () => alert("lol")
+            "text": "Contact", "func": () => showModal(marked(contactMarkdown))
         },
         {
             "text": "GitHub", "func": () => window.open("https://github.com/Mews/leic-gh-leaderboard")
         },
         {
-            "text": "License", "func": () => alert("lol")
+            "text": "License", "func": () => showModal(marked(licenseMarkdown))
         },
     ]
 
@@ -117,7 +191,7 @@
 
         font-family: "Raleway", sans-serif;
         font-weight: 600;
-        font-size: clamp(1rem, 1.5vw, 2rem);
+        font-size: clamp(1.1rem, 1.5vw, 2rem);
 
         transition: all 0.5 ease-in-out;
     }
