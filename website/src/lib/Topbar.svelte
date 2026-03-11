@@ -1,4 +1,6 @@
 <script lang="ts">
+    const { openSideMenu } = $props();
+
     const fetchData = (async () => {
         const response = await fetch('data/fetchdata.json');
         const data = await response.json();
@@ -7,7 +9,7 @@
 </script>
 
 <header>
-    <button class="hamburger" aria-label="Open Side Menu" onclick={()=>alert("click")}>
+    <button class="hamburger" aria-label="Open Side Menu" onclick={openSideMenu}>
         <img src="assets/hamburger.svg" alt="">
     </button>
 
