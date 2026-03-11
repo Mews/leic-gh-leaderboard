@@ -40,6 +40,8 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+
+        box-shadow: inset 0px 0px 2rem var(--bg-3);
     }
 
     h1 {
@@ -76,9 +78,8 @@
 
     button.hamburger {
         height: 100%;
-        width: 0;
         padding-left: min(25px, 5%);
-        background-color: var(--bg-2);
+        background-color: transparent;
         border: none;
         display: flex;
         align-items: center;
