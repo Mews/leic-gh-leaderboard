@@ -34,6 +34,8 @@ If you see your username in the leaderboard and you don't want to, or if you wan
 feel free to reach out to me!
 
 You can find my contact information in the side menu.
+
+**And remember, this is all for fun :)**<br>Have fun climbing the leaderboard!
 `;
 
     setTimeout(async () => {
