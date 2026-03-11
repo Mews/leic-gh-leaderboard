@@ -1,8 +1,8 @@
 <script lang="ts">
-    import Topbar from "./lib/Topbar.svelte";
-    import Table from "./lib/Table.svelte";
-    import SideMenu from "./lib/SideMenu.svelte";
-    import Modal from "./lib/Modal.svelte";
+    import Topbar from "./lib/components/Topbar.svelte";
+    import Table from "./lib/components/Table.svelte";
+    import SideMenu from "./lib/components/SideMenu.svelte";
+    import Modal from "./lib/components/Modal.svelte";
 
     import { marked } from "marked";
 

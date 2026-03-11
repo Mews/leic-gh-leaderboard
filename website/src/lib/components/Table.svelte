@@ -1,7 +1,7 @@
 <script lang="ts">
     import SearchBar from "./SearchBar.svelte";
-    import { rankStudents, giveMedal } from "./rank";
-    import type { Student } from "./rank";
+    import { rankStudents, giveMedal } from "../scripts/rank";
+    import type { Student } from "../scripts/rank";
 
     import { fade } from "svelte/transition";
     import { flip } from "svelte/animate";
