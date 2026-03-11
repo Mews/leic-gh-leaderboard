@@ -29,8 +29,11 @@
     div#modal-outer {
         overflow-y: hidden; 
         border-radius: 25px; 
-        height: 60vh; 
         width: 50vw;
+
+        display: flex;
+        flex-direction: column;
+        max-height: 60vh;
 
         position: absolute;
         left: 0;
@@ -52,8 +55,7 @@
         color: var(--text-1);
         
         overflow-y: auto;
-
-        height: 100%;
+        flex-grow: 1;
 
         font-family: "Raleway", sans-serif;
 

@@ -4,6 +4,8 @@
     import SideMenu from "./lib/SideMenu.svelte";
     import Modal from "./lib/Modal.svelte";
 
+    import { marked } from "marked";
+
     let sideMenuOpen = $state(false);
 
     function toggleMenu() {
@@ -22,6 +24,22 @@
     function hideModal() {
         modalVisible = false;
     }
+
+    const openingModalMarkdown = `
+# Hey there!
+
+This is a website where LEIC students are ranked based on their GitHub stats.
+
+If you see your username in the leaderboard and you don't want to, or if you want to be in the leaderboard but aren't yet,
+feel free to reach out to me!
+
+You can find my contact information in the side menu.
+`;
+
+    setTimeout(async () => {
+        const html = await marked.parse(openingModalMarkdown);
+        showModal(html);
+    }, 1);
 
 </script>
 <svelte:head>
