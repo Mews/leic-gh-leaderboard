@@ -64,7 +64,7 @@
 
 <SearchBar bind:query={query}/>
 
-<div class="table">
+<div class="table minimal-scrollbar">
 <table>
     <thead>
         <tr>
@@ -180,6 +180,7 @@
         background-color: var(--table-row-1);
 
         scrollbar-color: var(--accent-2) var(--accent-3);
+        box-shadow: 0px 0px 50px var(--accent-2);
     }
 
     table {
