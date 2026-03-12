@@ -1,14 +1,15 @@
 <script lang="ts">
     import SearchBar from "./SearchBar.svelte";
+    import Tooltip from "./Tooltip.svelte";
     import { rankStudents, giveMedal } from "../scripts/rank";
-    import type { Student } from "../scripts/rank";
+    import type { Student } from "../scripts/types";
+    import { tooltip_state } from "../scripts/tooltip_state.svelte";
 
     import { fade } from "svelte/transition";
     import { flip } from "svelte/animate";
     import { onMount } from "svelte";
 
     let query = $state("");
-    let hoveredRankIndex: number | undefined = $state(undefined);
 
     let students = $state<Student[]>([]);
 
@@ -143,20 +144,55 @@
             
             {#each filteredStudents as student, i (student.username)}
                 <tr>
-                    <td onmouseenter={() => hoveredRankIndex = i} onmouseleave={() => hoveredRankIndex = undefined}>
-                        {giveMedal(student.rank)}{student.rank}
-                        {#if hoveredRankIndex === i}
-                            <div class="score-viewer" transition:fade={{duration:200}}>{student.score.toFixed(1)}</div>
-                        {/if}
+                    <td 
+                        onmousemove={(e) => {
+                            tooltip_state.x = e.pageX + 15;
+                            tooltip_state.y = e.pageY - 10;
+                            tooltip_state.html = student.score.toFixed(1);
+                            tooltip_state.show = true;
+                        }}
+                        onmouseleave={()=>tooltip_state.show=false}
+                        >
+                        {giveMedal(student.rank)+student.rank}
                     </td>
-                    <td onclick={()=>window.open(`https://github.com/${student.username}`)}>
+                    <td onclick={()=>window.open(`https://github.com/${student.username}`)}
+                        onmousemove={(e) => {
+                            tooltip_state.x = e.pageX + 15;
+                            tooltip_state.y = e.pageY - 10;
+                            tooltip_state.html = 
+                            `Click to open ${student.username}'${student.username.endsWith("s") ? "" : "s"} profile`;
+                            tooltip_state.show = true;
+                        }}
+                        onmouseleave={()=>tooltip_state.show=false}>
                         {student.username}
                     </td>
-                    <td>{student.stars}</td>
+                    <td
+                        onmousemove={(e) => {
+                            tooltip_state.x = e.pageX + 15;
+                            tooltip_state.y = e.pageY - 10;
+                            tooltip_state.html = `<strong>${student.username}'s top 5 repos</strong><br>` +
+                            student.top5repos.map(repo=>`⭐${repo.stargazerCount} - ${repo.name}`).join("<br>");
+                            tooltip_state.show = true;
+                        }}
+                        onmouseleave={()=>tooltip_state.show=false}
+                        onclick={()=>window.open(`https://github.com/${student.username}?tab=repositories&sort=stargazers`)}>
+                        {student.stars}
+                    </td>
                     <td>{student.prs}</td>
                     <td>{student.commits}</td>
                     <td>{student.followers}</td>
-                    <td>{student.repos}</td>
+                    <td
+                        onmousemove={(e) => {
+                            tooltip_state.x = e.pageX + 15;
+                            tooltip_state.y = e.pageY - 10;
+                            tooltip_state.html = `<strong>${student.username}'s top 5 repos</strong><br>` +
+                            student.top5repos.map(repo=>`⭐${repo.stargazerCount} - ${repo.name}`).join("<br>");
+                            tooltip_state.show = true;
+                        }}
+                        onmouseleave={()=>tooltip_state.show=false}
+                        onclick={()=>window.open(`https://github.com/${student.username}?tab=repositories&sort=stargazers`)}>
+                        {student.repos}
+                    </td>
                 </tr>
             {/each}
 
@@ -273,23 +309,6 @@
         height: 100%;
     }
 
-    div.score-viewer {
-        position: absolute;
-        top: 50%; 
-        left: 50%;
-        transform: translate(25px, -50%);
-    
-        background-color: var(--bg-1);
-        color: var(--text-1);
-        padding: 8px 12px;
-        border-radius: 6px;
-        border: 1px solid var(--accent-1);
-        font-size: 0.85rem;
 
-        z-index: 100;
-
-        font-family: "Inter", sans-serif;
-        font-weight: 400;
-    }
 
 </style>

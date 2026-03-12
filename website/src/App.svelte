@@ -5,6 +5,7 @@
     import Modal from "./lib/components/Modal.svelte";
 
     import { marked } from "marked";
+    import Tooltip from "./lib/components/Tooltip.svelte";
 
     let sideMenuOpen = $state(false);
 
@@ -78,6 +79,7 @@ You can find my contact information in the side menu.
     <Modal body={modalBody} {hideModal}/>
 {/if}
 
+<Tooltip />
 
 <style>
 
