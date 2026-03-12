@@ -6,7 +6,7 @@
 
 <style>
     input {
-        background-color: var(--bg-1);
+        background-color: transparent;
         border: none;
         border-bottom: 4px solid var(--accent-1);
 
