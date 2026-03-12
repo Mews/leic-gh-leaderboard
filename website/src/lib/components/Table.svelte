@@ -222,7 +222,7 @@
     }
 
     th:hover {
-        color: var(--accent-1);
+        color: var(--text-hover);
     }
 
     span.header-sort-indicator {
@@ -257,7 +257,7 @@
     }
 
     td:hover {
-        color: var(--accent-1);
+        color: var(--text-hover);
     }
 
     tr:nth-child(odd) {
