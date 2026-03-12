@@ -39,6 +39,10 @@ You can also check the status of the last fetch in the [GitHub action page](http
 ## Do private contributions count?
 Student data is fetched using GitHub's GraphQL api, which *usually* cannot see private repos / contributions.\n
 So no, private contributions usually aren't counted, with some exceptions, like if you specifically make them visible.
+
+## Which repos count towards my stats?
+Currently, only repos that you are the owner of are counted towards your stats on the leaderboard, though this
+might change in the future.
 `;
 
     const contactMarkdown = `
