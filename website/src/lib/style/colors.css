@@ -4,10 +4,29 @@
     --bg-3: #3C096C;
     --text-1: #eccbff;
     --text-2: #e0aaff;
+    --text-header: #e0aaff;
     --accent-1: #c77dff;
     --accent-2: #5a189a;
     --accent-3: #3C096C;
+    --accent-4: #240046;
     --table-row-1: #5a189a;
     --table-row-2: #7b2cbf;
     --table-header: #240046;
 }
+
+:root.light-mode {
+    --bg-1: #FFFFFF;
+    --bg-2: #E0AAFF;
+    --bg-3: #C77DFF;
+    --text-1: #10002B;
+    --text-2: #3C096C;
+    --text-header: #10002B;
+    --accent-4: #c77dff;
+    --accent-3: #5a189a;
+    --accent-2: #3C096C;
+    --accent-1: #240046;
+    --table-row-1: #9D4EDD;
+    --table-row-2: #C77DFF;
+    --table-header: #7B2CBF;
+}
+

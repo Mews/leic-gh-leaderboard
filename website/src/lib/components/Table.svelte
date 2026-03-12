@@ -197,7 +197,7 @@
     th {
         background-color: var(--table-header);
 
-        color: var(--text-2);
+        color: var(--text-header);
 
         font-family: "Raleway", sans-serif;
         font-weight: 600;
