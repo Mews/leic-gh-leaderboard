@@ -7,6 +7,7 @@ export type Student = {
     repos: number;
     followers: number;
     rank: number;
+    top5repos: string[];
 };
 
 export async function rankStudents() {

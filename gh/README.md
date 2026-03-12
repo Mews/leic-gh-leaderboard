@@ -8,7 +8,7 @@ It will then create two files in OUTPUT_FOLDER. `userdata.json`, with the fetche
 
 The `fetch.py` script will run periodically (once a week) from a GitHub action and update the data for the website to use.
 
-Stars are considered only for repositories where the user is either an owner or a collaborator.
+Stars are considered only for repositories where the user is the owner for now.
 
 The fetch script currently can only aggregate the stars from the first 100 repos on a user's account. This is a limitation of GitHub's GraphQL api, and it can be solved in the future by using pagination.
 
@@ -23,18 +23,13 @@ Data returned by the GraphQL query might look something like this:
          "followers":{
             "totalCount":0
          },
-         "ownRepos":{
+         "repos":{
             "totalCount":1,
-            "totalStargazers":[
+            "repoData":[
                {
+                  "name":"templates",
                   "stargazerCount":0
                }
-            ]
-         },
-         "collaboratorRepos":{
-            "totalCount":0,
-            "totalStargazers":[
-               
             ]
          },
          "pullRequests":{
@@ -49,15 +44,9 @@ Data returned by the GraphQL query might look something like this:
          "followers":{
             "totalCount":0
          },
-         "ownRepos":{
+         "repos":{
             "totalCount":0,
-            "totalStargazers":[
-               
-            ]
-         },
-         "collaboratorRepos":{
-            "totalCount":0,
-            "totalStargazers":[
+            "repoData":[
                
             ]
          },
@@ -73,15 +62,9 @@ Data returned by the GraphQL query might look something like this:
          "followers":{
             "totalCount":0
          },
-         "ownRepos":{
+         "repos":{
             "totalCount":0,
-            "totalStargazers":[
-               
-            ]
-         },
-         "collaboratorRepos":{
-            "totalCount":0,
-            "totalStargazers":[
+            "repoData":[
                
             ]
          },
@@ -95,59 +78,67 @@ Data returned by the GraphQL query might look something like this:
       "u3":{
          "login":"PeterF521",
          "followers":{
-            "totalCount":1
+            "totalCount":2
          },
-         "ownRepos":{
+         "repos":{
             "totalCount":14,
-            "totalStargazers":[
+            "repoData":[
                {
+                  "name":"vscode",
                   "stargazerCount":0
                },
                {
+                  "name":"freeCodeCamp",
                   "stargazerCount":0
                },
                {
+                  "name":"first-contributions",
                   "stargazerCount":0
                },
                {
+                  "name":"app-ideas",
                   "stargazerCount":0
                },
                {
+                  "name":"youtubeclone-frontend",
                   "stargazerCount":0
                },
                {
+                  "name":"stayaway-app",
                   "stargazerCount":0
                },
                {
+                  "name":"cep-promise",
                   "stargazerCount":0
                },
                {
+                  "name":"phone-list-js",
                   "stargazerCount":0
                },
                {
+                  "name":"unicard-compra-automatica-refeicoes",
                   "stargazerCount":0
                },
                {
+                  "name":"redux",
                   "stargazerCount":0
                },
                {
+                  "name":"simple-js-calculator",
                   "stargazerCount":0
                },
                {
+                  "name":"node-fetch-mock",
                   "stargazerCount":0
                },
                {
+                  "name":"pe-editor",
                   "stargazerCount":0
                },
                {
+                  "name":"ne-reader",
                   "stargazerCount":0
                }
-            ]
-         },
-         "collaboratorRepos":{
-            "totalCount":0,
-            "totalStargazers":[
-               
             ]
          },
          "pullRequests":{
@@ -162,15 +153,9 @@ Data returned by the GraphQL query might look something like this:
          "followers":{
             "totalCount":0
          },
-         "ownRepos":{
+         "repos":{
             "totalCount":0,
-            "totalStargazers":[
-               
-            ]
-         },
-         "collaboratorRepos":{
-            "totalCount":0,
-            "totalStargazers":[
+            "repoData":[
                
             ]
          },
@@ -186,15 +171,9 @@ Data returned by the GraphQL query might look something like this:
          "followers":{
             "totalCount":2
          },
-         "ownRepos":{
+         "repos":{
             "totalCount":0,
-            "totalStargazers":[
-               
-            ]
-         },
-         "collaboratorRepos":{
-            "totalCount":0,
-            "totalStargazers":[
+            "repoData":[
                
             ]
          },
@@ -210,15 +189,9 @@ Data returned by the GraphQL query might look something like this:
          "followers":{
             "totalCount":0
          },
-         "ownRepos":{
+         "repos":{
             "totalCount":0,
-            "totalStargazers":[
-               
-            ]
-         },
-         "collaboratorRepos":{
-            "totalCount":0,
-            "totalStargazers":[
+            "repoData":[
                
             ]
          },
@@ -234,15 +207,9 @@ Data returned by the GraphQL query might look something like this:
          "followers":{
             "totalCount":0
          },
-         "ownRepos":{
+         "repos":{
             "totalCount":0,
-            "totalStargazers":[
-               
-            ]
-         },
-         "collaboratorRepos":{
-            "totalCount":0,
-            "totalStargazers":[
+            "repoData":[
                
             ]
          },
@@ -258,15 +225,9 @@ Data returned by the GraphQL query might look something like this:
          "followers":{
             "totalCount":0
          },
-         "ownRepos":{
+         "repos":{
             "totalCount":0,
-            "totalStargazers":[
-               
-            ]
-         },
-         "collaboratorRepos":{
-            "totalCount":0,
-            "totalStargazers":[
+            "repoData":[
                
             ]
          },
@@ -282,15 +243,9 @@ Data returned by the GraphQL query might look something like this:
          "followers":{
             "totalCount":0
          },
-         "ownRepos":{
+         "repos":{
             "totalCount":0,
-            "totalStargazers":[
-               
-            ]
-         },
-         "collaboratorRepos":{
-            "totalCount":0,
-            "totalStargazers":[
+            "repoData":[
                
             ]
          },

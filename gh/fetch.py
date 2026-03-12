@@ -30,7 +30,7 @@ def fetch_batch(batch, retries=0):
         u{i}: user(login: "{user}") {{
             login
             followers {{ totalCount }}
-            repos: repositories(ownerAffiliations: [OWNER, COLLABORATOR], first: 100) {{
+            repos: repositories(ownerAffiliations: OWNER, first: 100) {{
                 totalCount
                 repoData: nodes {{
                     name
@@ -100,13 +100,16 @@ MAX_RETRIES: {MAX_RETIRES}
 
         try:
             data = fetch_batch(batch)
+
             users_data = data.get('data', {})
 
             for key, val in users_data.items():
                 if val:
                     total_stars = 0
+                    top5repos = []
                     if val['repos']['repoData']:
                         total_stars += sum(repo['stargazerCount'] for repo in val['repos']['repoData'])
+                        top5repos = sorted(val['repos']['repoData'], key=lambda x:x['stargazerCount'], reverse=True)[0:5]
 
                     results.append({
                         "username": val['login'],
@@ -114,7 +117,8 @@ MAX_RETRIES: {MAX_RETIRES}
                         "followers": val['followers']['totalCount'],
                         "repos": val['repos']['totalCount'],
                         "prs": val['pullRequests']['totalCount'],
-                        "commits": val['contributionsCollection']['totalCommitContributions']
+                        "commits": val['contributionsCollection']['totalCommitContributions'],
+                        "top5repos": top5repos
                     })
 
         except Exception:
