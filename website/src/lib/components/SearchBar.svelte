@@ -19,7 +19,11 @@
         font-family: "Raleway", sans-serif;
         font-weight: 500;
 
-        transition: all 0.3s ease-in-out;
+        transition: 
+            width 0.3s ease-in-out,
+            border-bottom 0.3s ease-in-out,
+            padding-left 0.3s ease-in-out,
+            transform 0.3s ease-in-out;
     }
 
     input:focus {
