@@ -179,7 +179,7 @@
         max-width: 95vw;
         background-color: var(--table-row-1);
 
-        scrollbar-color: var(--accent-2) var(--accent-3);
+        scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
         box-shadow: 0px 0px 50px var(--accent-2);
     }
 

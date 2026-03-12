@@ -13,6 +13,8 @@
     --table-row-1: #5a189a;
     --table-row-2: #7b2cbf;
     --table-header: #240046;
+    --scrollbar-track: #3C096C;
+    --scrollbar-thumb: #5a189a;
 }
 
 :root.light-mode {
@@ -27,8 +29,10 @@
     --accent-3: #5a189a;
     --accent-2: #3C096C;
     --accent-1: #240046;
-    --table-row-1: #9D4EDD;
+    --table-row-1: #E0AAFF;
     --table-row-2: #C77DFF;
-    --table-header: #7B2CBF;
+    --table-header: #9D4EDD;
+    --scrollbar-track: #9D4EDD;
+    --scrollbar-thumb: #E0AAFF;
 }
 
