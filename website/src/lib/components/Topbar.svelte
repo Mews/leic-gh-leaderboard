@@ -9,7 +9,8 @@
 </script>
 
 <header>
-    <button class="hamburger" aria-label="Open Side Menu" onclick={openSideMenu}>
+    <button class="hamburger" aria-label="Open Side Menu" onclick={openSideMenu} 
+    style="mask: url('assets/hamburger.svg');mask-size: contain;mask-repeat: no-repeat;mask-position: center;">
     </button>
 
     <h1>
@@ -85,11 +86,7 @@
     }
 
     button.hamburger {
-        mask: url("assets/hamburger.svg");
         background-color: var(--text-1);
-        mask-size: contain;
-        mask-repeat: no-repeat;
-        mask-position: center;
 
         height: 100%;
 
