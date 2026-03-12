@@ -258,6 +258,7 @@
 
     td:hover {
         color: var(--text-hover);
+        transform: scale(1.1);
     }
 
     tr:nth-child(odd) {
