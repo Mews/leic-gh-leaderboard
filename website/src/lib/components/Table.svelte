@@ -197,7 +197,7 @@
     th {
         background-color: var(--table-header);
 
-        color: var(--text-2);
+        color: var(--text-header);
 
         font-family: "Raleway", sans-serif;
         font-weight: 600;
@@ -222,7 +222,7 @@
     }
 
     th:hover {
-        color: var(--accent-1);
+        color: var(--text-hover);
     }
 
     span.header-sort-indicator {
@@ -257,7 +257,8 @@
     }
 
     td:hover {
-        color: var(--accent-1);
+        color: var(--text-hover);
+        transform: scale(1.1);
     }
 
     tr:nth-child(odd) {

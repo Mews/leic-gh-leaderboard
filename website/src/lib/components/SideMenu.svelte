@@ -2,7 +2,7 @@
     import { marked } from 'marked';
     import { fly, fade } from 'svelte/transition';
 
-    let { closeSideMenu, showModal } = $props();
+    let { closeSideMenu, showModal, lightModeEnabled = $bindable() } = $props();
 
     let clickedButton: string | undefined = $state();
 
@@ -111,6 +111,17 @@ SOFTWARE.
     <nav>
         <h2>Menu</h2>
         <ul>
+            <li>
+                <label for="light-mode-checkbox" class="switch">
+                    <span>Light mode</span>
+                    <div class="toggle-container">
+                        <input type="checkbox" bind:checked={lightModeEnabled} id="light-mode-checkbox">
+                        <span class="slider"></span>
+                    </div>
+                </label>
+                
+            </li>
+
             {#each menuItems as menuItem}
                 <li>
                     <button class="text-button"
@@ -177,7 +188,7 @@ SOFTWARE.
     
     ul {
         list-style-type: none;
-        padding: none;
+        padding: 0;
         padding-left: 0.5rem;
     }
 
@@ -188,6 +199,8 @@ SOFTWARE.
         color: var(--text-1);
 
         margin-bottom: 2rem;
+
+        transition: all 0.5 ease-in-out;
 
         font-family: "Raleway", sans-serif;
         font-weight: 600;
@@ -206,6 +219,68 @@ SOFTWARE.
         transform: scale(0.95);
         filter: brightness(0.8);
         transition: transform 0.1s;
+    }
+
+    .switch {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-between;
+        width: 100%;
+        cursor: pointer;
+        margin-bottom: 2rem;
+        
+        font-family: "Raleway", sans-serif;
+        font-weight: 600;
+        font-size: clamp(1.1rem, 1.5vw, 2rem);
+        color: var(--text-1);
+    }
+
+    .switch > span {
+        margin-bottom: 1rem;
+    }
+
+    .toggle-container {
+        position: relative;
+        width: 50px;
+        height: 26px;
+        flex-shrink: 0;
+    }
+
+    .toggle-container input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0; left: 0; right: 0; bottom: 0;
+        background-color: var(--accent-4);
+        transition: .4s;
+        border-radius: 34px;
+    }
+
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 20px;
+        width: 20px;
+        left: 3px;
+        bottom: 3px;
+        background-color: var(--accent-2);
+        transition: .4s;
+        border-radius: 50%;
+    }
+
+    input:checked + .slider {
+        background-color: var(--bg-3);
+    }
+
+    input:checked + .slider:before {
+        transform: translateX(24px);
+        background-color: var(--accent-1);
     }
 
     span.user-count-display {

@@ -43,6 +43,19 @@ You can find my contact information in the side menu.
         showModal(html);
     }, 1);
 
+    let lightModeEnabled = $state(localStorage.getItem("theme") === "light");
+
+    $effect(() => {
+        const mode = lightModeEnabled ? "light" : "dark";
+        localStorage.setItem("theme", mode);
+        
+        if (lightModeEnabled) {
+            document.documentElement.classList.add("light-mode");
+        } else {
+            document.documentElement.classList.remove("light-mode");
+        }
+    });
+
 </script>
 <svelte:head>
 
@@ -53,7 +66,7 @@ You can find my contact information in the side menu.
 <Topbar openSideMenu={toggleMenu}/>
 
 {#if sideMenuOpen}
-    <SideMenu closeSideMenu={toggleMenu} {showModal}/>
+    <SideMenu closeSideMenu={toggleMenu} {showModal} bind:lightModeEnabled={lightModeEnabled}/>
 {/if}
 
 <main>

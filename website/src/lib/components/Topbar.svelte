@@ -10,7 +10,6 @@
 
 <header>
     <button class="hamburger" aria-label="Open Side Menu" onclick={openSideMenu}>
-        <img src="assets/hamburger.svg" alt="">
     </button>
 
     <h1>
@@ -85,8 +84,16 @@
         align-items: center;
     }
 
-    button.hamburger img {
-        height: 35%;
+    button.hamburger {
+        mask: url("assets/hamburger.svg");
+        background-color: var(--text-1);
+        mask-size: contain;
+        mask-repeat: no-repeat;
+        mask-position: center;
+
+        height: 100%;
+
+        margin-left: 1.75rem;
     }
 
 </style>
