@@ -24,7 +24,7 @@ The list of student's GitHub usernames comes from:
 
 ## How are scores calculated?
 Each student's score is calculated according to this formula:\n
-\`Score =  Stars × 50 + Commits × 1 + Pull Requests × 3.5 + Repos × 1 + Followers × 1\`
+\`Score =  Stars × 20 + Commits × 1 + Pull Requests × 3.5 + Repos × 1 + Followers × 1\`
 
 Ties are then broken using stars, prs, commits, followers, repos, and username (lexicographical order) in that order.\n 
 

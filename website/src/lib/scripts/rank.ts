@@ -6,7 +6,7 @@ export async function rankStudents() {
 
     students.forEach(
         (student: Student) => {
-            student.score = (student.stars * 50) + 
+            student.score = (student.stars * 20) + 
                             (student.commits * 1) +
                             (student.prs * 3.5) + 
                             (student.repos * 1) + 
