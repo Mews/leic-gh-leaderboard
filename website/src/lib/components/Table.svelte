@@ -197,7 +197,11 @@
             {/each}
 
             <tr class="padding-row">
-                <td colspan=7></td>
+                <td colspan=7 class="padding-row">
+                    {#if filteredStudents.length === 0}
+                        No students found!
+                    {/if}
+                </td>
             </tr>
 
         {/if}
@@ -292,7 +296,7 @@
         user-select: none;
     }
 
-    td:hover {
+    td:hover:not(.padding-row) {
         color: var(--text-hover);
         transform: scale(1.1);
     }
