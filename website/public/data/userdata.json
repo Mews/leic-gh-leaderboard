@@ -330,7 +330,7 @@
         "followers": 0,
         "repos": 1,
         "prs": 0,
-        "commits": 1,
+        "commits": 2,
         "top5repos": [
             {
                 "name": "git-learn",
@@ -384,7 +384,7 @@
         "followers": 2,
         "repos": 4,
         "prs": 3,
-        "commits": 79,
+        "commits": 80,
         "top5repos": [
             {
                 "name": "FEUP-PROG",
@@ -431,9 +431,9 @@
         "username": "martim1705",
         "stars": 0,
         "followers": 2,
-        "repos": 8,
+        "repos": 9,
         "prs": 0,
-        "commits": 111,
+        "commits": 118,
         "top5repos": [
             {
                 "name": "PersonalProjects",
@@ -1290,15 +1290,10 @@
         "username": "DiogoSantos1207",
         "stars": 0,
         "followers": 0,
-        "repos": 1,
+        "repos": 0,
         "prs": 0,
         "commits": 0,
-        "top5repos": [
-            {
-                "name": "chatbot",
-                "stargazerCount": 0
-            }
-        ]
+        "top5repos": []
     },
     {
         "username": "GoncaloRibeiro1",
@@ -1453,7 +1448,7 @@
     {
         "username": "FernandoOliveira201005231",
         "stars": 0,
-        "followers": 2,
+        "followers": 1,
         "repos": 0,
         "prs": 0,
         "commits": 2,
@@ -1501,7 +1496,7 @@
         "followers": 0,
         "repos": 4,
         "prs": 0,
-        "commits": 55,
+        "commits": 59,
         "top5repos": [
             {
                 "name": "Portfolio",
@@ -1536,7 +1531,7 @@
         "followers": 15,
         "repos": 31,
         "prs": 4,
-        "commits": 282,
+        "commits": 297,
         "top5repos": [
             {
                 "name": "python-elo-system",
@@ -2144,7 +2139,7 @@
     {
         "username": "matildeoliveirasilvafeup",
         "stars": 0,
-        "followers": 4,
+        "followers": 5,
         "repos": 12,
         "prs": 0,
         "commits": 73,
@@ -2229,7 +2224,7 @@
         "username": "ricardalves",
         "stars": 0,
         "followers": 4,
-        "repos": 2,
+        "repos": 3,
         "prs": 0,
         "commits": 0,
         "top5repos": [
@@ -2239,6 +2234,10 @@
             },
             {
                 "name": "rotest",
+                "stargazerCount": 0
+            },
+            {
+                "name": "DA-project",
                 "stargazerCount": 0
             }
         ]
@@ -2414,7 +2413,7 @@
     {
         "username": "Cast-10",
         "stars": 0,
-        "followers": 0,
+        "followers": 1,
         "repos": 0,
         "prs": 0,
         "commits": 0,
@@ -2658,7 +2657,7 @@
         "followers": 0,
         "repos": 2,
         "prs": 0,
-        "commits": 5,
+        "commits": 6,
         "top5repos": [
             {
                 "name": "projectLDTS",
@@ -2802,7 +2801,7 @@
         "followers": 6,
         "repos": 6,
         "prs": 9,
-        "commits": 119,
+        "commits": 124,
         "top5repos": [
             {
                 "name": "BPFetcher",
@@ -2828,11 +2827,11 @@
     },
     {
         "username": "Mews",
-        "stars": 78,
+        "stars": 79,
         "followers": 22,
         "repos": 27,
         "prs": 89,
-        "commits": 847,
+        "commits": 853,
         "top5repos": [
             {
                 "name": "spotify-lyrics",
@@ -2840,7 +2839,7 @@
             },
             {
                 "name": "pyrobloxbot",
-                "stargazerCount": 23
+                "stargazerCount": 24
             },
             {
                 "name": "simpleaudiostretch",
@@ -2955,10 +2954,15 @@
         "username": "jlage24",
         "stars": 0,
         "followers": 0,
-        "repos": 0,
+        "repos": 1,
         "prs": 0,
-        "commits": 0,
-        "top5repos": []
+        "commits": 2,
+        "top5repos": [
+            {
+                "name": "DA-conference-reviewer-tool",
+                "stargazerCount": 0
+            }
+        ]
     },
     {
         "username": "Torraoo",
