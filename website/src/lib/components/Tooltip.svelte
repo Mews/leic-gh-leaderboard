@@ -24,5 +24,7 @@
         font-family: "Inter", sans-serif;
         font-weight: 400;
         pointer-events: none;
+
+        z-index: 1000;
     }
 </style>
