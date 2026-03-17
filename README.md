@@ -29,7 +29,7 @@ $$Score =  Stars × 20 + Commits × 1 + Pull Requests × 3.5 + Repos × 1 + Foll
 
 Ties are then broken using stars, prs, commits, followers, repos, and username (lexicographical order) in that order.
 
-The coefficients are somewhat arbitrarily chosen, but the goal is to value high value contributions more.
+The coefficients are somewhat arbitrarily chosen, but the goal is to value quality over quantity, while still rewarding you for putting in work.
 Improvement suggestions are welcome!
 
 ## Where do you get student's GitHubs from?

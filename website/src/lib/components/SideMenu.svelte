@@ -28,7 +28,8 @@ Each student's score is calculated according to this formula:\n
 
 Ties are then broken using stars, prs, commits, followers, repos, and username (lexicographical order) in that order.\n 
 
-The coefficients are somewhat arbitrarily chosen, but the goal is to value high value contributions more.
+The coefficients are somewhat arbitrarily chosen, but the goal is to value quality over quantity, 
+while still rewarding you for putting in work.
 Improvement suggestions are welcome!
 
 ## When are scores updated?
