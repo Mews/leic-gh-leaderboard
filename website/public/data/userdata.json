@@ -1027,19 +1027,19 @@
     },
     {
         "username": "alexis-ramoss",
-        "stars": 0,
+        "stars": 2,
         "followers": 2,
         "repos": 2,
         "prs": 0,
-        "commits": 33,
+        "commits": 52,
         "top5repos": [
             {
                 "name": "rgb_project",
-                "stargazerCount": 0
+                "stargazerCount": 1
             },
             {
-                "name": "helloworld",
-                "stargazerCount": 0
+                "name": "scientific-conference-organization-tool",
+                "stargazerCount": 1
             }
         ]
     },
@@ -1069,10 +1069,10 @@
     {
         "username": "luiscarlosguimaraes",
         "stars": 0,
-        "followers": 2,
+        "followers": 3,
         "repos": 1,
         "prs": 0,
-        "commits": 3,
+        "commits": 7,
         "top5repos": [
             {
                 "name": "ES_TPC3",
@@ -1083,7 +1083,7 @@
     {
         "username": "konguito06",
         "stars": 0,
-        "followers": 1,
+        "followers": 2,
         "repos": 0,
         "prs": 0,
         "commits": 0,
@@ -1254,7 +1254,7 @@
     {
         "username": "goncalopinto1",
         "stars": 1,
-        "followers": 24,
+        "followers": 25,
         "repos": 5,
         "prs": 45,
         "commits": 352,
@@ -1798,7 +1798,7 @@
         "followers": 15,
         "repos": 36,
         "prs": 5,
-        "commits": 458,
+        "commits": 478,
         "top5repos": [
             {
                 "name": "python-elo-system",
@@ -3158,7 +3158,7 @@
         "followers": 0,
         "repos": 3,
         "prs": 0,
-        "commits": 39,
+        "commits": 41,
         "top5repos": [
             {
                 "name": "DA-s-project-1",
@@ -3584,7 +3584,7 @@
         "followers": 0,
         "repos": 1,
         "prs": 0,
-        "commits": 1,
+        "commits": 5,
         "top5repos": [
             {
                 "name": "tpc3_manuel_sousa",
@@ -3884,8 +3884,8 @@
         "stars": 1,
         "followers": 9,
         "repos": 6,
-        "prs": 20,
-        "commits": 267,
+        "prs": 23,
+        "commits": 276,
         "top5repos": [
             {
                 "name": "CrossyRoad-LDTS",
