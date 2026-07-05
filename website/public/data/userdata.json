@@ -545,9 +545,9 @@
         "username": "martim1705",
         "stars": 1,
         "followers": 2,
-        "repos": 13,
+        "repos": 15,
         "prs": 0,
-        "commits": 217,
+        "commits": 222,
         "top5repos": [
             {
                 "name": "DA-25-26-T2-P2",
@@ -1015,12 +1015,16 @@
         "username": "FranciscoCascalheira",
         "stars": 0,
         "followers": 0,
-        "repos": 1,
+        "repos": 2,
         "prs": 0,
-        "commits": 8,
+        "commits": 21,
         "top5repos": [
             {
                 "name": "EngineHER",
+                "stargazerCount": 0
+            },
+            {
+                "name": "personal-website",
                 "stargazerCount": 0
             }
         ]
@@ -1107,7 +1111,7 @@
         "stars": 0,
         "followers": 5,
         "repos": 3,
-        "prs": 3,
+        "prs": 4,
         "commits": 24,
         "top5repos": [
             {
@@ -1160,7 +1164,7 @@
         "followers": 1,
         "repos": 1,
         "prs": 3,
-        "commits": 27,
+        "commits": 32,
         "top5repos": [
             {
                 "name": "DA-project1",
@@ -1344,9 +1348,9 @@
         "username": "Dario396",
         "stars": 0,
         "followers": 7,
-        "repos": 5,
+        "repos": 7,
         "prs": 35,
-        "commits": 209,
+        "commits": 292,
         "top5repos": [
             {
                 "name": "CrossyRoad-LDTS",
@@ -1375,7 +1379,7 @@
         "stars": 2,
         "followers": 28,
         "repos": 7,
-        "prs": 96,
+        "prs": 97,
         "commits": 677,
         "top5repos": [
             {
@@ -1960,15 +1964,15 @@
     },
     {
         "username": "rodrgds",
-        "stars": 59,
+        "stars": 66,
         "followers": 17,
-        "repos": 42,
-        "prs": 25,
-        "commits": 1186,
+        "repos": 48,
+        "prs": 31,
+        "commits": 1413,
         "top5repos": [
             {
                 "name": "productplate",
-                "stargazerCount": 21
+                "stargazerCount": 27
             },
             {
                 "name": "python-elo-system",
@@ -1976,7 +1980,7 @@
             },
             {
                 "name": "openpost",
-                "stargazerCount": 9
+                "stargazerCount": 10
             },
             {
                 "name": "ark",
@@ -2199,7 +2203,7 @@
     {
         "username": "Blueg00d",
         "stars": 0,
-        "followers": 3,
+        "followers": 7,
         "repos": 5,
         "prs": 1,
         "commits": 208,
@@ -2331,12 +2335,16 @@
         "username": "tiagoanoliveira",
         "stars": 0,
         "followers": 0,
-        "repos": 4,
-        "prs": 10,
-        "commits": 295,
+        "repos": 5,
+        "prs": 40,
+        "commits": 784,
         "top5repos": [
             {
                 "name": "tiagoanoliveira",
+                "stargazerCount": 0
+            },
+            {
+                "name": "stcp-tracker",
                 "stargazerCount": 0
             },
             {
@@ -2552,7 +2560,7 @@
         "followers": 0,
         "repos": 2,
         "prs": 7,
-        "commits": 14,
+        "commits": 19,
         "top5repos": [
             {
                 "name": "todo",
@@ -2607,9 +2615,9 @@
         "username": "LucaMaguire81",
         "stars": 0,
         "followers": 3,
-        "repos": 2,
+        "repos": 3,
         "prs": 1,
-        "commits": 24,
+        "commits": 25,
         "top5repos": [
             {
                 "name": "Horarios-EFIS",
@@ -2617,6 +2625,10 @@
             },
             {
                 "name": "area-calculator",
+                "stargazerCount": 0
+            },
+            {
+                "name": "Lap-Tracker",
                 "stargazerCount": 0
             }
         ]
@@ -3142,7 +3154,7 @@
         "followers": 0,
         "repos": 1,
         "prs": 0,
-        "commits": 3,
+        "commits": 0,
         "top5repos": [
             {
                 "name": "joao-costa-2006.github.io",
@@ -3260,7 +3272,7 @@
     {
         "username": "DevPedro19",
         "stars": 0,
-        "followers": 4,
+        "followers": 3,
         "repos": 5,
         "prs": 19,
         "commits": 335,
@@ -3335,9 +3347,9 @@
         "username": "T0m2sT",
         "stars": 1,
         "followers": 1,
-        "repos": 6,
+        "repos": 5,
         "prs": 9,
-        "commits": 489,
+        "commits": 488,
         "top5repos": [
             {
                 "name": "Bob_The_Destructor",
@@ -3364,11 +3376,15 @@
     {
         "username": "Tiago-Su",
         "stars": 0,
-        "followers": 1,
-        "repos": 5,
+        "followers": 2,
+        "repos": 6,
         "prs": 0,
-        "commits": 133,
+        "commits": 171,
         "top5repos": [
+            {
+                "name": "projectLDTS",
+                "stargazerCount": 0
+            },
             {
                 "name": "DA-s-project-1",
                 "stargazerCount": 0
@@ -3378,15 +3394,11 @@
                 "stargazerCount": 0
             },
             {
-                "name": "LDTS-report",
+                "name": "DA-s-project-2",
                 "stargazerCount": 0
             },
             {
                 "name": "LCOM-project",
-                "stargazerCount": 0
-            },
-            {
-                "name": "Portfolio",
                 "stargazerCount": 0
             }
         ]
@@ -3416,10 +3428,10 @@
     {
         "username": "Isaac3105",
         "stars": 1,
-        "followers": 27,
+        "followers": 28,
         "repos": 11,
         "prs": 13,
-        "commits": 425,
+        "commits": 426,
         "top5repos": [
             {
                 "name": "Bad-IceCream-PyGame",
@@ -3518,7 +3530,7 @@
         "followers": 0,
         "repos": 0,
         "prs": 0,
-        "commits": 36,
+        "commits": 56,
         "top5repos": []
     },
     {
@@ -3526,8 +3538,8 @@
         "stars": 0,
         "followers": 0,
         "repos": 2,
-        "prs": 5,
-        "commits": 116,
+        "prs": 9,
+        "commits": 130,
         "top5repos": [
             {
                 "name": "Data-Persistence-Project",
@@ -4015,7 +4027,7 @@
     {
         "username": "Camelomck",
         "stars": 0,
-        "followers": 3,
+        "followers": 4,
         "repos": 0,
         "prs": 0,
         "commits": 32,
@@ -4118,7 +4130,7 @@
         "followers": 29,
         "repos": 16,
         "prs": 17,
-        "commits": 493,
+        "commits": 496,
         "top5repos": [
             {
                 "name": "LDTS-Bob-The-Destructor",
@@ -4147,8 +4159,8 @@
         "stars": 2,
         "followers": 12,
         "repos": 10,
-        "prs": 107,
-        "commits": 785,
+        "prs": 108,
+        "commits": 786,
         "top5repos": [
             {
                 "name": "CrossyRoad-LDTS",
@@ -4178,7 +4190,7 @@
         "followers": 51,
         "repos": 49,
         "prs": 140,
-        "commits": 2992,
+        "commits": 2963,
         "top5repos": [
             {
                 "name": "capstone-project-template",
