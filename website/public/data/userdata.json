@@ -1163,7 +1163,7 @@
         "stars": 1,
         "followers": 1,
         "repos": 1,
-        "prs": 3,
+        "prs": 4,
         "commits": 32,
         "top5repos": [
             {
@@ -1380,7 +1380,7 @@
         "followers": 28,
         "repos": 7,
         "prs": 97,
-        "commits": 677,
+        "commits": 681,
         "top5repos": [
             {
                 "name": "cf_ai_eic-assistant",
@@ -1964,15 +1964,15 @@
     },
     {
         "username": "rodrgds",
-        "stars": 66,
+        "stars": 69,
         "followers": 17,
         "repos": 48,
-        "prs": 31,
-        "commits": 1413,
+        "prs": 32,
+        "commits": 1459,
         "top5repos": [
             {
                 "name": "productplate",
-                "stargazerCount": 27
+                "stargazerCount": 29
             },
             {
                 "name": "python-elo-system",
@@ -1980,7 +1980,7 @@
             },
             {
                 "name": "openpost",
-                "stargazerCount": 10
+                "stargazerCount": 11
             },
             {
                 "name": "ark",
@@ -2127,10 +2127,10 @@
     {
         "username": "JulliaFernandes",
         "stars": 6,
-        "followers": 89,
+        "followers": 88,
         "repos": 64,
         "prs": 23,
-        "commits": 32,
+        "commits": 29,
         "top5repos": [
             {
                 "name": "LabirintoRecorrente",
@@ -2279,7 +2279,7 @@
     {
         "username": "rogerio06barbosa",
         "stars": 0,
-        "followers": 4,
+        "followers": 5,
         "repos": 0,
         "prs": 0,
         "commits": 0,
@@ -2337,7 +2337,7 @@
         "followers": 0,
         "repos": 5,
         "prs": 40,
-        "commits": 784,
+        "commits": 793,
         "top5repos": [
             {
                 "name": "tiagoanoliveira",
@@ -3272,7 +3272,7 @@
     {
         "username": "DevPedro19",
         "stars": 0,
-        "followers": 3,
+        "followers": 4,
         "repos": 5,
         "prs": 19,
         "commits": 335,
@@ -3347,9 +3347,9 @@
         "username": "T0m2sT",
         "stars": 1,
         "followers": 1,
-        "repos": 5,
-        "prs": 9,
-        "commits": 488,
+        "repos": 12,
+        "prs": 11,
+        "commits": 811,
         "top5repos": [
             {
                 "name": "Bob_The_Destructor",
@@ -3360,15 +3360,15 @@
                 "stargazerCount": 0
             },
             {
-                "name": "Heisenbug",
-                "stargazerCount": 0
-            },
-            {
                 "name": "LearnPython",
                 "stargazerCount": 0
             },
             {
                 "name": "Secret_Agent_007",
+                "stargazerCount": 0
+            },
+            {
+                "name": "Register_Allocation",
                 "stargazerCount": 0
             }
         ]
@@ -3406,7 +3406,7 @@
     {
         "username": "DaltonDjoesman",
         "stars": 0,
-        "followers": 8,
+        "followers": 10,
         "repos": 3,
         "prs": 4,
         "commits": 296,
@@ -3431,7 +3431,7 @@
         "followers": 28,
         "repos": 11,
         "prs": 13,
-        "commits": 426,
+        "commits": 417,
         "top5repos": [
             {
                 "name": "Bad-IceCream-PyGame",
@@ -3597,19 +3597,19 @@
     },
     {
         "username": "Mews",
-        "stars": 89,
+        "stars": 93,
         "followers": 24,
         "repos": 29,
         "prs": 90,
         "commits": 926,
         "top5repos": [
             {
-                "name": "spotify-lyrics",
-                "stargazerCount": 31
+                "name": "pyrobloxbot",
+                "stargazerCount": 32
             },
             {
-                "name": "pyrobloxbot",
-                "stargazerCount": 29
+                "name": "spotify-lyrics",
+                "stargazerCount": 31
             },
             {
                 "name": "simpleaudiostretch",
@@ -3617,7 +3617,7 @@
             },
             {
                 "name": "crossroad-finder",
-                "stargazerCount": 3
+                "stargazerCount": 4
             },
             {
                 "name": "leic-gh-leaderboard",
@@ -3698,7 +3698,7 @@
         "followers": 17,
         "repos": 6,
         "prs": 6,
-        "commits": 56,
+        "commits": 58,
         "top5repos": [
             {
                 "name": "Soundmap_Quester",
@@ -4111,7 +4111,7 @@
         "stars": 0,
         "followers": 5,
         "repos": 0,
-        "prs": 17,
+        "prs": 18,
         "commits": 93,
         "top5repos": []
     },
@@ -4128,9 +4128,9 @@
         "username": "Pinho13",
         "stars": 3,
         "followers": 29,
-        "repos": 16,
-        "prs": 17,
-        "commits": 496,
+        "repos": 19,
+        "prs": 19,
+        "commits": 760,
         "top5repos": [
             {
                 "name": "LDTS-Bob-The-Destructor",
@@ -4186,23 +4186,23 @@
     },
     {
         "username": "peucastro",
-        "stars": 15,
-        "followers": 51,
+        "stars": 16,
+        "followers": 53,
         "repos": 49,
-        "prs": 140,
-        "commits": 2963,
+        "prs": 141,
+        "commits": 2989,
         "top5repos": [
             {
                 "name": "capstone-project-template",
                 "stargazerCount": 5
             },
             {
-                "name": "what-im-on",
+                "name": "nixos-config",
                 "stargazerCount": 3
             },
             {
-                "name": "nixos-config",
-                "stargazerCount": 2
+                "name": "what-im-on",
+                "stargazerCount": 3
             },
             {
                 "name": "lcom",
