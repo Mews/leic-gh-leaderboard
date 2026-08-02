@@ -265,12 +265,16 @@
     },
     {
         "username": "BBrunoF",
-        "stars": 0,
+        "stars": 1,
         "followers": 0,
-        "repos": 9,
+        "repos": 10,
         "prs": 0,
-        "commits": 115,
+        "commits": 155,
         "top5repos": [
+            {
+                "name": "CodebaseDiagram",
+                "stargazerCount": 1
+            },
             {
                 "name": "projectProg",
                 "stargazerCount": 0
@@ -285,10 +289,6 @@
             },
             {
                 "name": "WeatherForecast",
-                "stargazerCount": 0
-            },
-            {
-                "name": "da2_allocator",
                 "stargazerCount": 0
             }
         ]
@@ -862,12 +862,16 @@
         "username": "EduardoRibeiro21",
         "stars": 0,
         "followers": 0,
-        "repos": 1,
+        "repos": 2,
         "prs": 0,
-        "commits": 8,
+        "commits": 11,
         "top5repos": [
             {
                 "name": "ESOF-tpc3",
+                "stargazerCount": 0
+            },
+            {
+                "name": "Cryptopals_challenges",
                 "stargazerCount": 0
             }
         ]
@@ -981,7 +985,7 @@
         "followers": 6,
         "repos": 1,
         "prs": 3,
-        "commits": 12,
+        "commits": 13,
         "top5repos": [
             {
                 "name": "ES-TPC3",
@@ -1251,7 +1255,7 @@
     {
         "username": "9sousaaa",
         "stars": 0,
-        "followers": 2,
+        "followers": 3,
         "repos": 3,
         "prs": 2,
         "commits": 21,
@@ -1393,7 +1397,7 @@
     {
         "username": "goncalopinto1",
         "stars": 2,
-        "followers": 28,
+        "followers": 29,
         "repos": 7,
         "prs": 98,
         "commits": 696,
@@ -1568,7 +1572,7 @@
     {
         "username": "MegaMan-Ofc",
         "stars": 5,
-        "followers": 7,
+        "followers": 8,
         "repos": 6,
         "prs": 6,
         "commits": 355,
@@ -1980,15 +1984,15 @@
     },
     {
         "username": "rodrgds",
-        "stars": 78,
+        "stars": 80,
         "followers": 17,
-        "repos": 49,
-        "prs": 39,
-        "commits": 1703,
+        "repos": 85,
+        "prs": 101,
+        "commits": 1926,
         "top5repos": [
             {
                 "name": "productplate",
-                "stargazerCount": 32
+                "stargazerCount": 33
             },
             {
                 "name": "openpost",
@@ -2146,7 +2150,7 @@
         "followers": 88,
         "repos": 64,
         "prs": 23,
-        "commits": 16,
+        "commits": 12,
         "top5repos": [
             {
                 "name": "LabirintoRecorrente",
@@ -2351,9 +2355,9 @@
         "username": "tiagoanoliveira",
         "stars": 0,
         "followers": 0,
-        "repos": 6,
-        "prs": 45,
-        "commits": 895,
+        "repos": 8,
+        "prs": 55,
+        "commits": 1563,
         "top5repos": [
             {
                 "name": "tiagoanoliveira",
@@ -2368,11 +2372,11 @@
                 "stargazerCount": 0
             },
             {
-                "name": "hydrogen-redirect-theme",
+                "name": "barbearia-template",
                 "stargazerCount": 0
             },
             {
-                "name": "trono-dos-websites",
+                "name": "hydrogen-redirect-theme",
                 "stargazerCount": 0
             }
         ]
@@ -3444,7 +3448,7 @@
     {
         "username": "Isaac3105",
         "stars": 1,
-        "followers": 27,
+        "followers": 28,
         "repos": 13,
         "prs": 14,
         "commits": 669,
@@ -3617,7 +3621,7 @@
         "followers": 24,
         "repos": 29,
         "prs": 90,
-        "commits": 926,
+        "commits": 921,
         "top5repos": [
             {
                 "name": "pyrobloxbot",
@@ -4121,7 +4125,7 @@
     {
         "username": "AugustoVSoares",
         "stars": 0,
-        "followers": 5,
+        "followers": 6,
         "repos": 0,
         "prs": 18,
         "commits": 93,
@@ -4140,9 +4144,9 @@
         "username": "Pinho13",
         "stars": 3,
         "followers": 29,
-        "repos": 19,
+        "repos": 20,
         "prs": 19,
-        "commits": 795,
+        "commits": 843,
         "top5repos": [
             {
                 "name": "LDTS-Bob-The-Destructor",
@@ -4201,8 +4205,8 @@
         "stars": 17,
         "followers": 53,
         "repos": 49,
-        "prs": 144,
-        "commits": 2981,
+        "prs": 145,
+        "commits": 2994,
         "top5repos": [
             {
                 "name": "capstone-project-template",
