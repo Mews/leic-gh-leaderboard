@@ -862,9 +862,9 @@
         "username": "EduardoRibeiro21",
         "stars": 0,
         "followers": 0,
-        "repos": 2,
+        "repos": 3,
         "prs": 0,
-        "commits": 11,
+        "commits": 13,
         "top5repos": [
             {
                 "name": "ESOF-tpc3",
@@ -872,6 +872,10 @@
             },
             {
                 "name": "Cryptopals_challenges",
+                "stargazerCount": 0
+            },
+            {
+                "name": "RISCV-CPU-Project",
                 "stargazerCount": 0
             }
         ]
@@ -1399,7 +1403,7 @@
         "stars": 2,
         "followers": 29,
         "repos": 7,
-        "prs": 98,
+        "prs": 101,
         "commits": 696,
         "top5repos": [
             {
@@ -1572,7 +1576,7 @@
     {
         "username": "MegaMan-Ofc",
         "stars": 5,
-        "followers": 8,
+        "followers": 9,
         "repos": 6,
         "prs": 6,
         "commits": 355,
@@ -1984,19 +1988,19 @@
     },
     {
         "username": "rodrgds",
-        "stars": 80,
+        "stars": 83,
         "followers": 17,
         "repos": 85,
         "prs": 101,
-        "commits": 1926,
+        "commits": 2115,
         "top5repos": [
             {
                 "name": "productplate",
-                "stargazerCount": 33
+                "stargazerCount": 34
             },
             {
                 "name": "openpost",
-                "stargazerCount": 17
+                "stargazerCount": 19
             },
             {
                 "name": "python-elo-system",
@@ -2147,7 +2151,7 @@
     {
         "username": "JulliaFernandes",
         "stars": 6,
-        "followers": 88,
+        "followers": 90,
         "repos": 64,
         "prs": 23,
         "commits": 12,
@@ -2299,7 +2303,7 @@
     {
         "username": "rogerio06barbosa",
         "stars": 0,
-        "followers": 5,
+        "followers": 6,
         "repos": 0,
         "prs": 0,
         "commits": 0,
@@ -2356,8 +2360,8 @@
         "stars": 0,
         "followers": 0,
         "repos": 8,
-        "prs": 55,
-        "commits": 1563,
+        "prs": 58,
+        "commits": 1582,
         "top5repos": [
             {
                 "name": "tiagoanoliveira",
@@ -2580,7 +2584,7 @@
         "followers": 0,
         "repos": 2,
         "prs": 7,
-        "commits": 19,
+        "commits": 14,
         "top5repos": [
             {
                 "name": "todo",
@@ -2637,7 +2641,7 @@
         "followers": 3,
         "repos": 3,
         "prs": 1,
-        "commits": 25,
+        "commits": 15,
         "top5repos": [
             {
                 "name": "Horarios-EFIS",
@@ -3448,7 +3452,7 @@
     {
         "username": "Isaac3105",
         "stars": 1,
-        "followers": 28,
+        "followers": 29,
         "repos": 13,
         "prs": 14,
         "commits": 669,
@@ -4128,7 +4132,7 @@
         "followers": 6,
         "repos": 0,
         "prs": 18,
-        "commits": 93,
+        "commits": 87,
         "top5repos": []
     },
     {
@@ -4204,9 +4208,9 @@
         "username": "peucastro",
         "stars": 17,
         "followers": 53,
-        "repos": 49,
-        "prs": 145,
-        "commits": 2994,
+        "repos": 50,
+        "prs": 148,
+        "commits": 3022,
         "top5repos": [
             {
                 "name": "capstone-project-template",
