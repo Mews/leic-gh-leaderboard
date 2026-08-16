@@ -1057,12 +1057,20 @@
         "username": "marygou",
         "stars": 0,
         "followers": 0,
-        "repos": 3,
-        "prs": 1,
-        "commits": 9,
+        "repos": 6,
+        "prs": 0,
+        "commits": 0,
         "top5repos": [
             {
-                "name": "skills-introduction-to-github",
+                "name": "book-rating-predictor",
+                "stargazerCount": 0
+            },
+            {
+                "name": "github-actions-playground",
+                "stargazerCount": 0
+            },
+            {
+                "name": "goodreads-analysis",
                 "stargazerCount": 0
             },
             {
@@ -1070,7 +1078,7 @@
                 "stargazerCount": 0
             },
             {
-                "name": "tpc-3",
+                "name": "skills-introduction-to-github",
                 "stargazerCount": 0
             }
         ]
@@ -1404,7 +1412,7 @@
         "followers": 29,
         "repos": 7,
         "prs": 101,
-        "commits": 696,
+        "commits": 702,
         "top5repos": [
             {
                 "name": "cf_ai_eic-assistant",
@@ -1577,9 +1585,9 @@
         "username": "MegaMan-Ofc",
         "stars": 5,
         "followers": 9,
-        "repos": 6,
-        "prs": 6,
-        "commits": 355,
+        "repos": 7,
+        "prs": 36,
+        "commits": 566,
         "top5repos": [
             {
                 "name": "Space-Invaders",
@@ -1988,19 +1996,15 @@
     },
     {
         "username": "rodrgds",
-        "stars": 83,
-        "followers": 17,
-        "repos": 85,
-        "prs": 101,
-        "commits": 2115,
+        "stars": 64,
+        "followers": 19,
+        "repos": 84,
+        "prs": 120,
+        "commits": 2452,
         "top5repos": [
             {
                 "name": "productplate",
                 "stargazerCount": 34
-            },
-            {
-                "name": "openpost",
-                "stargazerCount": 19
             },
             {
                 "name": "python-elo-system",
@@ -2012,6 +2016,10 @@
             },
             {
                 "name": "relativenumber-vs2022",
+                "stargazerCount": 2
+            },
+            {
+                "name": "personal-website",
                 "stargazerCount": 2
             }
         ]
@@ -2151,7 +2159,7 @@
     {
         "username": "JulliaFernandes",
         "stars": 6,
-        "followers": 90,
+        "followers": 91,
         "repos": 64,
         "prs": 23,
         "commits": 12,
@@ -2230,7 +2238,7 @@
         "followers": 7,
         "repos": 5,
         "prs": 1,
-        "commits": 208,
+        "commits": 207,
         "top5repos": [
             {
                 "name": "ProgramationsProject_",
@@ -2361,7 +2369,7 @@
         "followers": 0,
         "repos": 8,
         "prs": 58,
-        "commits": 1582,
+        "commits": 1583,
         "top5repos": [
             {
                 "name": "tiagoanoliveira",
@@ -2584,7 +2592,7 @@
         "followers": 0,
         "repos": 2,
         "prs": 7,
-        "commits": 14,
+        "commits": 11,
         "top5repos": [
             {
                 "name": "todo",
@@ -3370,10 +3378,10 @@
     {
         "username": "T0m2sT",
         "stars": 1,
-        "followers": 1,
-        "repos": 12,
+        "followers": 2,
+        "repos": 11,
         "prs": 13,
-        "commits": 870,
+        "commits": 865,
         "top5repos": [
             {
                 "name": "Bob_The_Destructor",
@@ -3384,15 +3392,15 @@
                 "stargazerCount": 0
             },
             {
-                "name": "LearnPython",
-                "stargazerCount": 0
-            },
-            {
                 "name": "Secret_Agent_007",
                 "stargazerCount": 0
             },
             {
                 "name": "Register_Allocation",
+                "stargazerCount": 0
+            },
+            {
+                "name": "FeUpload",
                 "stargazerCount": 0
             }
         ]
@@ -3455,7 +3463,7 @@
         "followers": 29,
         "repos": 13,
         "prs": 14,
-        "commits": 669,
+        "commits": 662,
         "top5repos": [
             {
                 "name": "Bad-IceCream-PyGame",
@@ -3475,20 +3483,6 @@
             },
             {
                 "name": "NotesApp",
-                "stargazerCount": 0
-            }
-        ]
-    },
-    {
-        "username": "MiguelRocha-24",
-        "stars": 0,
-        "followers": 0,
-        "repos": 1,
-        "prs": 0,
-        "commits": 44,
-        "top5repos": [
-            {
-                "name": "C-SO",
                 "stargazerCount": 0
             }
         ]
@@ -3592,7 +3586,7 @@
     {
         "username": "akaTatago",
         "stars": 6,
-        "followers": 7,
+        "followers": 8,
         "repos": 10,
         "prs": 9,
         "commits": 370,
@@ -3621,7 +3615,7 @@
     },
     {
         "username": "Mews",
-        "stars": 96,
+        "stars": 97,
         "followers": 24,
         "repos": 29,
         "prs": 90,
@@ -3629,7 +3623,7 @@
         "top5repos": [
             {
                 "name": "pyrobloxbot",
-                "stargazerCount": 34
+                "stargazerCount": 35
             },
             {
                 "name": "spotify-lyrics",
@@ -3715,7 +3709,7 @@
     {
         "username": "danielramaa",
         "stars": 1,
-        "followers": 17,
+        "followers": 18,
         "repos": 6,
         "prs": 6,
         "commits": 58,
@@ -4148,9 +4142,9 @@
         "username": "Pinho13",
         "stars": 3,
         "followers": 29,
-        "repos": 20,
+        "repos": 19,
         "prs": 19,
-        "commits": 843,
+        "commits": 779,
         "top5repos": [
             {
                 "name": "LDTS-Bob-The-Destructor",
@@ -4209,8 +4203,8 @@
         "stars": 17,
         "followers": 53,
         "repos": 50,
-        "prs": 148,
-        "commits": 3022,
+        "prs": 150,
+        "commits": 2964,
         "top5repos": [
             {
                 "name": "capstone-project-template",
