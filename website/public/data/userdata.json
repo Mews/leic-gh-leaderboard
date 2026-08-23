@@ -1327,10 +1327,15 @@
         "username": "franciscapinto02",
         "stars": 0,
         "followers": 0,
-        "repos": 0,
+        "repos": 1,
         "prs": 0,
-        "commits": 0,
-        "top5repos": []
+        "commits": 1,
+        "top5repos": [
+            {
+                "name": "mercados-pt.github.io",
+                "stargazerCount": 0
+            }
+        ]
     },
     {
         "username": "Kraknes",
@@ -1412,7 +1417,7 @@
         "followers": 29,
         "repos": 7,
         "prs": 101,
-        "commits": 702,
+        "commits": 711,
         "top5repos": [
             {
                 "name": "cf_ai_eic-assistant",
@@ -1586,8 +1591,8 @@
         "stars": 5,
         "followers": 9,
         "repos": 7,
-        "prs": 36,
-        "commits": 566,
+        "prs": 37,
+        "commits": 571,
         "top5repos": [
             {
                 "name": "Space-Invaders",
@@ -1703,7 +1708,7 @@
     {
         "username": "GoncaloRibeiro1",
         "stars": 0,
-        "followers": 1,
+        "followers": 2,
         "repos": 1,
         "prs": 6,
         "commits": 20,
@@ -1786,15 +1791,10 @@
         "username": "PedroPinheiro57",
         "stars": 0,
         "followers": 0,
-        "repos": 1,
+        "repos": 0,
         "prs": 0,
-        "commits": 1,
-        "top5repos": [
-            {
-                "name": "ES-tpc3",
-                "stargazerCount": 0
-            }
-        ]
+        "commits": 0,
+        "top5repos": []
     },
     {
         "username": "zoesilveira",
@@ -1996,11 +1996,11 @@
     },
     {
         "username": "rodrgds",
-        "stars": 64,
+        "stars": 65,
         "followers": 19,
         "repos": 84,
         "prs": 120,
-        "commits": 2452,
+        "commits": 2902,
         "top5repos": [
             {
                 "name": "productplate",
@@ -2011,15 +2011,15 @@
                 "stargazerCount": 11
             },
             {
+                "name": "nix-config",
+                "stargazerCount": 3
+            },
+            {
                 "name": "ark",
                 "stargazerCount": 3
             },
             {
                 "name": "relativenumber-vs2022",
-                "stargazerCount": 2
-            },
-            {
-                "name": "personal-website",
                 "stargazerCount": 2
             }
         ]
@@ -2159,7 +2159,7 @@
     {
         "username": "JulliaFernandes",
         "stars": 6,
-        "followers": 91,
+        "followers": 89,
         "repos": 64,
         "prs": 23,
         "commits": 12,
@@ -2367,9 +2367,9 @@
         "username": "tiagoanoliveira",
         "stars": 0,
         "followers": 0,
-        "repos": 8,
-        "prs": 58,
-        "commits": 1583,
+        "repos": 9,
+        "prs": 65,
+        "commits": 1688,
         "top5repos": [
             {
                 "name": "tiagoanoliveira",
@@ -2380,15 +2380,15 @@
                 "stargazerCount": 0
             },
             {
+                "name": "main-website",
+                "stargazerCount": 0
+            },
+            {
                 "name": "unavailable",
                 "stargazerCount": 0
             },
             {
                 "name": "barbearia-template",
-                "stargazerCount": 0
-            },
-            {
-                "name": "hydrogen-redirect-theme",
                 "stargazerCount": 0
             }
         ]
@@ -2607,7 +2607,7 @@
     {
         "username": "roi721",
         "stars": 0,
-        "followers": 7,
+        "followers": 6,
         "repos": 0,
         "prs": 0,
         "commits": 0,
@@ -3460,10 +3460,10 @@
     {
         "username": "Isaac3105",
         "stars": 1,
-        "followers": 29,
+        "followers": 28,
         "repos": 13,
         "prs": 14,
-        "commits": 662,
+        "commits": 649,
         "top5repos": [
             {
                 "name": "Bad-IceCream-PyGame",
@@ -4126,7 +4126,7 @@
         "followers": 6,
         "repos": 0,
         "prs": 18,
-        "commits": 87,
+        "commits": 85,
         "top5repos": []
     },
     {
@@ -4203,8 +4203,8 @@
         "stars": 17,
         "followers": 53,
         "repos": 50,
-        "prs": 150,
-        "commits": 2964,
+        "prs": 151,
+        "commits": 2947,
         "top5repos": [
             {
                 "name": "capstone-project-template",
