@@ -84,9 +84,9 @@
         "username": "m1ke26",
         "stars": 0,
         "followers": 3,
-        "repos": 4,
+        "repos": 3,
         "prs": 0,
-        "commits": 26,
+        "commits": 35,
         "top5repos": [
             {
                 "name": "hi-miguel-flutter",
@@ -97,11 +97,7 @@
                 "stargazerCount": 0
             },
             {
-                "name": "RuView",
-                "stargazerCount": 0
-            },
-            {
-                "name": "CipherChat",
+                "name": "projeto_prog",
                 "stargazerCount": 0
             }
         ]
@@ -491,9 +487,9 @@
         "username": "RiquiFeup",
         "stars": 0,
         "followers": 3,
-        "repos": 9,
+        "repos": 10,
         "prs": 13,
-        "commits": 296,
+        "commits": 389,
         "top5repos": [
             {
                 "name": "FEUP-PROG",
@@ -1048,7 +1044,7 @@
         "username": "marygou",
         "stars": 0,
         "followers": 0,
-        "repos": 6,
+        "repos": 7,
         "prs": 0,
         "commits": 0,
         "top5repos": [
@@ -1334,7 +1330,7 @@
         "followers": 2,
         "repos": 19,
         "prs": 1,
-        "commits": 62,
+        "commits": 53,
         "top5repos": [
             {
                 "name": "Stein-saks-papir",
@@ -1405,10 +1401,10 @@
     {
         "username": "goncalopinto1",
         "stars": 2,
-        "followers": 29,
+        "followers": 30,
         "repos": 7,
-        "prs": 103,
-        "commits": 765,
+        "prs": 106,
+        "commits": 778,
         "top5repos": [
             {
                 "name": "cf_ai_eic-assistant",
@@ -1558,7 +1554,7 @@
     {
         "username": "lourencopaco",
         "stars": 0,
-        "followers": 4,
+        "followers": 5,
         "repos": 3,
         "prs": 0,
         "commits": 0,
@@ -1964,9 +1960,9 @@
         "username": "rodrgds",
         "stars": 66,
         "followers": 19,
-        "repos": 84,
-        "prs": 124,
-        "commits": 3630,
+        "repos": 89,
+        "prs": 140,
+        "commits": 4113,
         "top5repos": [
             {
                 "name": "productplate",
@@ -2333,9 +2329,9 @@
         "username": "tiagoanoliveira",
         "stars": 0,
         "followers": 0,
-        "repos": 9,
+        "repos": 10,
         "prs": 65,
-        "commits": 1689,
+        "commits": 1699,
         "top5repos": [
             {
                 "name": "tiagoanoliveira",
@@ -2615,7 +2611,7 @@
         "followers": 3,
         "repos": 3,
         "prs": 1,
-        "commits": 12,
+        "commits": 10,
         "top5repos": [
             {
                 "name": "Horarios-EFIS",
@@ -3008,7 +3004,7 @@
         "followers": 1,
         "repos": 0,
         "prs": 0,
-        "commits": 0,
+        "commits": 5,
         "top5repos": []
     },
     {
@@ -3016,8 +3012,8 @@
         "stars": 0,
         "followers": 1,
         "repos": 0,
-        "prs": 4,
-        "commits": 15,
+        "prs": 3,
+        "commits": 7,
         "top5repos": []
     },
     {
@@ -3426,7 +3422,7 @@
     {
         "username": "Isaac3105",
         "stars": 1,
-        "followers": 30,
+        "followers": 29,
         "repos": 13,
         "prs": 14,
         "commits": 630,
@@ -3581,7 +3577,7 @@
     },
     {
         "username": "Mews",
-        "stars": 97,
+        "stars": 100,
         "followers": 24,
         "repos": 29,
         "prs": 90,
@@ -3601,7 +3597,7 @@
             },
             {
                 "name": "crossroad-finder",
-                "stargazerCount": 4
+                "stargazerCount": 7
             },
             {
                 "name": "leic-gh-leaderboard",
@@ -3675,7 +3671,7 @@
     {
         "username": "danielramaa",
         "stars": 1,
-        "followers": 18,
+        "followers": 19,
         "repos": 6,
         "prs": 6,
         "commits": 58,
@@ -3725,8 +3721,8 @@
         "stars": 0,
         "followers": 0,
         "repos": 1,
-        "prs": 10,
-        "commits": 27,
+        "prs": 7,
+        "commits": 20,
         "top5repos": [
             {
                 "name": "DA-Project",
@@ -3856,7 +3852,7 @@
         "username": "Miguelaqf06",
         "stars": 0,
         "followers": 3,
-        "repos": 2,
+        "repos": 3,
         "prs": 0,
         "commits": 0,
         "top5repos": [
@@ -3866,6 +3862,10 @@
             },
             {
                 "name": "Tower-Defense-Java",
+                "stargazerCount": 0
+            },
+            {
+                "name": "DotGestReleases",
                 "stargazerCount": 0
             }
         ]
@@ -3924,7 +3924,7 @@
         "stars": 0,
         "followers": 10,
         "repos": 0,
-        "prs": 8,
+        "prs": 9,
         "commits": 8,
         "top5repos": []
     },
@@ -4110,7 +4110,7 @@
         "followers": 29,
         "repos": 19,
         "prs": 19,
-        "commits": 779,
+        "commits": 777,
         "top5repos": [
             {
                 "name": "LDTS-Bob-The-Destructor",
@@ -4169,8 +4169,8 @@
         "stars": 17,
         "followers": 53,
         "repos": 50,
-        "prs": 154,
-        "commits": 2950,
+        "prs": 159,
+        "commits": 3017,
         "top5repos": [
             {
                 "name": "capstone-project-template",
