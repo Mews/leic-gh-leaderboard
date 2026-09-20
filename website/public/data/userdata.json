@@ -599,7 +599,7 @@
         "followers": 1,
         "repos": 1,
         "prs": 1,
-        "commits": 38,
+        "commits": 39,
         "top5repos": [
             {
                 "name": "DrMario",
@@ -737,16 +737,12 @@
         "username": "PedroPostiga",
         "stars": 0,
         "followers": 0,
-        "repos": 6,
+        "repos": 5,
         "prs": 5,
-        "commits": 125,
+        "commits": 113,
         "top5repos": [
             {
                 "name": "DA_Project2",
-                "stargazerCount": 0
-            },
-            {
-                "name": "PC_Hardware_Price",
                 "stargazerCount": 0
             },
             {
@@ -759,6 +755,10 @@
             },
             {
                 "name": "FEUP-LTW-project",
+                "stargazerCount": 0
+            },
+            {
+                "name": "FEUP-LDTS-project",
                 "stargazerCount": 0
             }
         ]
@@ -1424,8 +1424,8 @@
         "stars": 2,
         "followers": 30,
         "repos": 7,
-        "prs": 112,
-        "commits": 839,
+        "prs": 113,
+        "commits": 844,
         "top5repos": [
             {
                 "name": "cf_ai_eic-assistant",
@@ -1893,9 +1893,9 @@
         "username": "JosAlv335",
         "stars": 0,
         "followers": 0,
-        "repos": 3,
+        "repos": 4,
         "prs": 1,
-        "commits": 6,
+        "commits": 14,
         "top5repos": [
             {
                 "name": "EspaciospublicosCDMX",
@@ -1907,6 +1907,10 @@
             },
             {
                 "name": "MyGreetingApp_SE_FEUP",
+                "stargazerCount": 0
+            },
+            {
+                "name": "spacehey-assets",
                 "stargazerCount": 0
             }
         ]
@@ -1980,10 +1984,10 @@
     {
         "username": "rodrgds",
         "stars": 67,
-        "followers": 22,
+        "followers": 27,
         "repos": 98,
-        "prs": 149,
-        "commits": 4785,
+        "prs": 154,
+        "commits": 5104,
         "top5repos": [
             {
                 "name": "productplate",
@@ -2294,11 +2298,16 @@
     {
         "username": "rogerio06barbosa",
         "stars": 0,
-        "followers": 6,
-        "repos": 0,
-        "prs": 0,
-        "commits": 0,
-        "top5repos": []
+        "followers": 7,
+        "repos": 1,
+        "prs": 1,
+        "commits": 1,
+        "top5repos": [
+            {
+                "name": "FitNotesViewer",
+                "stargazerCount": 0
+            }
+        ]
     },
     {
         "username": "Gongasnotme",
@@ -2350,16 +2359,12 @@
         "username": "tiagoanoliveira",
         "stars": 0,
         "followers": 0,
-        "repos": 11,
-        "prs": 65,
-        "commits": 1710,
+        "repos": 10,
+        "prs": 25,
+        "commits": 1086,
         "top5repos": [
             {
                 "name": "tiagoanoliveira",
-                "stargazerCount": 0
-            },
-            {
-                "name": "stcp-tracker",
                 "stargazerCount": 0
             },
             {
@@ -2372,6 +2377,10 @@
             },
             {
                 "name": "barbearia-template",
+                "stargazerCount": 0
+            },
+            {
+                "name": "hydrogen-redirect-theme",
                 "stargazerCount": 0
             }
         ]
@@ -2516,18 +2525,18 @@
     },
     {
         "username": "franciscoclou",
-        "stars": 0,
+        "stars": 1,
         "followers": 4,
         "repos": 2,
         "prs": 0,
         "commits": 94,
         "top5repos": [
             {
-                "name": "BD-ClashRoyale",
-                "stargazerCount": 0
+                "name": "bikerace-vita",
+                "stargazerCount": 1
             },
             {
-                "name": "bikerace-vita",
+                "name": "BD-ClashRoyale",
                 "stargazerCount": 0
             }
         ]
@@ -2606,7 +2615,7 @@
         "followers": 1,
         "repos": 5,
         "prs": 0,
-        "commits": 34,
+        "commits": 30,
         "top5repos": [
             {
                 "name": "DA2026_PRJ2_T-11-_G-01",
@@ -2927,7 +2936,7 @@
         "followers": 0,
         "repos": 1,
         "prs": 0,
-        "commits": 6,
+        "commits": 0,
         "top5repos": [
             {
                 "name": "a4000-mouse",
@@ -3118,9 +3127,9 @@
         "username": "luislima9970",
         "stars": 1,
         "followers": 3,
-        "repos": 6,
+        "repos": 7,
         "prs": 0,
-        "commits": 329,
+        "commits": 390,
         "top5repos": [
             {
                 "name": "Automata",
@@ -3269,12 +3278,20 @@
         "username": "Lerit0",
         "stars": 0,
         "followers": 2,
-        "repos": 1,
+        "repos": 3,
         "prs": 14,
         "commits": 300,
         "top5repos": [
             {
                 "name": "TPC3",
+                "stargazerCount": 0
+            },
+            {
+                "name": "DA_first_project",
+                "stargazerCount": 0
+            },
+            {
+                "name": "DA_second_project",
                 "stargazerCount": 0
             }
         ]
@@ -3387,9 +3404,9 @@
         "username": "T0m2sT",
         "stars": 1,
         "followers": 2,
-        "repos": 12,
-        "prs": 13,
-        "commits": 892,
+        "repos": 13,
+        "prs": 14,
+        "commits": 939,
         "top5repos": [
             {
                 "name": "Bob_The_Destructor",
@@ -3468,10 +3485,10 @@
     {
         "username": "Isaac3105",
         "stars": 2,
-        "followers": 29,
+        "followers": 28,
         "repos": 13,
-        "prs": 14,
-        "commits": 624,
+        "prs": 16,
+        "commits": 635,
         "top5repos": [
             {
                 "name": "Bad-IceCream-PyGame",
@@ -3727,7 +3744,7 @@
         "stars": 1,
         "followers": 20,
         "repos": 6,
-        "prs": 6,
+        "prs": 7,
         "commits": 58,
         "top5repos": [
             {
@@ -3788,9 +3805,9 @@
         "username": "jlage24",
         "stars": 0,
         "followers": 0,
-        "repos": 5,
+        "repos": 7,
         "prs": 8,
-        "commits": 63,
+        "commits": 267,
         "top5repos": [
             {
                 "name": "DA-conference-reviewer-tool",
@@ -3859,15 +3876,10 @@
         "username": "joao11martins",
         "stars": 0,
         "followers": 0,
-        "repos": 1,
+        "repos": 0,
         "prs": 0,
         "commits": 0,
-        "top5repos": [
-            {
-                "name": "joaomartins-tpc3-esof",
-                "stargazerCount": 0
-            }
-        ]
+        "top5repos": []
     },
     {
         "username": "up202407257",
@@ -3990,9 +4002,9 @@
         "username": "jorgegr1",
         "stars": 1,
         "followers": 0,
-        "repos": 4,
+        "repos": 2,
         "prs": 0,
-        "commits": 45,
+        "commits": 30,
         "top5repos": [
             {
                 "name": "Cross-Domain-Restaurant-Recommender",
@@ -4000,14 +4012,6 @@
             },
             {
                 "name": "Lego-Bricks-detection",
-                "stargazerCount": 0
-            },
-            {
-                "name": "Global-Happiness-2024-Analysis",
-                "stargazerCount": 0
-            },
-            {
-                "name": "individual_app_jorgegr",
                 "stargazerCount": 0
             }
         ]
@@ -4227,8 +4231,8 @@
         "stars": 18,
         "followers": 53,
         "repos": 50,
-        "prs": 166,
-        "commits": 2969,
+        "prs": 183,
+        "commits": 3008,
         "top5repos": [
             {
                 "name": "capstone-project-template",
