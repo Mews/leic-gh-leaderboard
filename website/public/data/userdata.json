@@ -95,7 +95,7 @@
     {
         "username": "m1ke26",
         "stars": 0,
-        "followers": 4,
+        "followers": 5,
         "repos": 7,
         "prs": 0,
         "commits": 123,
@@ -258,7 +258,7 @@
         "followers": 0,
         "repos": 0,
         "prs": 4,
-        "commits": 22,
+        "commits": 21,
         "top5repos": []
     },
     {
@@ -285,7 +285,7 @@
         "followers": 0,
         "repos": 10,
         "prs": 0,
-        "commits": 154,
+        "commits": 151,
         "top5repos": [
             {
                 "name": "CodebaseDiagram",
@@ -446,7 +446,7 @@
     {
         "username": "af0nsx",
         "stars": 1,
-        "followers": 1,
+        "followers": 2,
         "repos": 8,
         "prs": 8,
         "commits": 225,
@@ -464,7 +464,7 @@
                 "stargazerCount": 0
             },
             {
-                "name": "foralands",
+                "name": "Foralands",
                 "stargazerCount": 0
             },
             {
@@ -478,7 +478,7 @@
         "stars": 0,
         "followers": 22,
         "repos": 7,
-        "prs": 23,
+        "prs": 25,
         "commits": 661,
         "top5repos": [
             {
@@ -506,7 +506,7 @@
     {
         "username": "RiquiFeup",
         "stars": 2,
-        "followers": 4,
+        "followers": 5,
         "repos": 11,
         "prs": 13,
         "commits": 407,
@@ -553,7 +553,7 @@
         "followers": 2,
         "repos": 15,
         "prs": 0,
-        "commits": 211,
+        "commits": 182,
         "top5repos": [
             {
                 "name": "DA-25-26-T2-P2",
@@ -599,12 +599,16 @@
         "username": "henriquealbasini",
         "stars": 0,
         "followers": 1,
-        "repos": 1,
-        "prs": 1,
-        "commits": 39,
+        "repos": 2,
+        "prs": 5,
+        "commits": 94,
         "top5repos": [
             {
-                "name": "DrMario",
+                "name": "DaProject",
+                "stargazerCount": 0
+            },
+            {
+                "name": "henriquealbasini",
                 "stargazerCount": 0
             }
         ]
@@ -840,7 +844,7 @@
         "followers": 0,
         "repos": 0,
         "prs": 0,
-        "commits": 10,
+        "commits": 11,
         "top5repos": []
     },
     {
@@ -849,7 +853,7 @@
         "followers": 0,
         "repos": 0,
         "prs": 0,
-        "commits": 7,
+        "commits": 8,
         "top5repos": []
     },
     {
@@ -857,8 +861,8 @@
         "stars": 0,
         "followers": 0,
         "repos": 0,
-        "prs": 0,
-        "commits": 0,
+        "prs": 5,
+        "commits": 18,
         "top5repos": []
     },
     {
@@ -1089,7 +1093,7 @@
         "followers": 4,
         "repos": 7,
         "prs": 2,
-        "commits": 35,
+        "commits": 41,
         "top5repos": [
             {
                 "name": "skills-introduction-to-github",
@@ -1192,7 +1196,7 @@
     },
     {
         "username": "alexis-ramoss",
-        "stars": 4,
+        "stars": 5,
         "followers": 2,
         "repos": 5,
         "prs": 0,
@@ -1216,7 +1220,7 @@
             },
             {
                 "name": "SmartSplit",
-                "stargazerCount": 0
+                "stargazerCount": 1
             }
         ]
     },
@@ -1261,15 +1265,20 @@
         "username": "konguito06",
         "stars": 0,
         "followers": 2,
-        "repos": 0,
+        "repos": 1,
         "prs": 0,
-        "commits": 0,
-        "top5repos": []
+        "commits": 21,
+        "top5repos": [
+            {
+                "name": "RC-aulas",
+                "stargazerCount": 0
+            }
+        ]
     },
     {
         "username": "goncalo066",
         "stars": 0,
-        "followers": 1,
+        "followers": 2,
         "repos": 1,
         "prs": 0,
         "commits": 1,
@@ -1377,7 +1386,7 @@
         "followers": 2,
         "repos": 19,
         "prs": 1,
-        "commits": 19,
+        "commits": 12,
         "top5repos": [
             {
                 "name": "Stein-saks-papir",
@@ -1448,10 +1457,10 @@
     {
         "username": "goncalopinto1",
         "stars": 2,
-        "followers": 33,
+        "followers": 34,
         "repos": 7,
         "prs": 114,
-        "commits": 853,
+        "commits": 914,
         "top5repos": [
             {
                 "name": "cf_ai_eic-assistant",
@@ -1573,7 +1582,7 @@
         "followers": 1,
         "repos": 2,
         "prs": 0,
-        "commits": 11,
+        "commits": 9,
         "top5repos": [
             {
                 "name": "2nd-year",
@@ -1622,7 +1631,7 @@
         "followers": 9,
         "repos": 4,
         "prs": 19,
-        "commits": 146,
+        "commits": 147,
         "top5repos": [
             {
                 "name": "SO_exercises",
@@ -1645,10 +1654,10 @@
     {
         "username": "edus4506",
         "stars": 0,
-        "followers": 9,
-        "repos": 4,
+        "followers": 11,
+        "repos": 8,
         "prs": 15,
-        "commits": 100,
+        "commits": 292,
         "top5repos": [
             {
                 "name": "Mini-Paint",
@@ -1664,6 +1673,10 @@
             },
             {
                 "name": "ConferenceReviewAssigner",
+                "stargazerCount": 0
+            },
+            {
+                "name": "RippleUp",
                 "stargazerCount": 0
             }
         ]
@@ -1689,10 +1702,10 @@
     {
         "username": "Ague7es",
         "stars": 0,
-        "followers": 9,
+        "followers": 10,
         "repos": 2,
         "prs": 17,
-        "commits": 97,
+        "commits": 100,
         "top5repos": [
             {
                 "name": "DA2",
@@ -1710,7 +1723,7 @@
         "followers": 1,
         "repos": 2,
         "prs": 2,
-        "commits": 36,
+        "commits": 37,
         "top5repos": [
             {
                 "name": "network-anomaly-detection",
@@ -1769,7 +1782,7 @@
         "followers": 0,
         "repos": 1,
         "prs": 0,
-        "commits": 2,
+        "commits": 3,
         "top5repos": [
             {
                 "name": "RCOM",
@@ -1815,7 +1828,7 @@
         "followers": 0,
         "repos": 2,
         "prs": 0,
-        "commits": 102,
+        "commits": 105,
         "top5repos": [
             {
                 "name": "LCOM-25-26",
@@ -1867,7 +1880,7 @@
     {
         "username": "pc-vieira",
         "stars": 0,
-        "followers": 2,
+        "followers": 3,
         "repos": 2,
         "prs": 0,
         "commits": 6,
@@ -2008,7 +2021,7 @@
         "followers": 0,
         "repos": 6,
         "prs": 6,
-        "commits": 129,
+        "commits": 121,
         "top5repos": [
             {
                 "name": "CompilerRegisterAllocationProject",
@@ -2037,8 +2050,8 @@
         "stars": 0,
         "followers": 0,
         "repos": 3,
-        "prs": 4,
-        "commits": 253,
+        "prs": 5,
+        "commits": 255,
         "top5repos": [
             {
                 "name": "da-project",
@@ -2056,11 +2069,11 @@
     },
     {
         "username": "rodrgds",
-        "stars": 69,
-        "followers": 33,
-        "repos": 108,
-        "prs": 180,
-        "commits": 7922,
+        "stars": 70,
+        "followers": 34,
+        "repos": 109,
+        "prs": 181,
+        "commits": 8335,
         "top5repos": [
             {
                 "name": "productplate",
@@ -2223,10 +2236,10 @@
     {
         "username": "JulliaFernandes",
         "stars": 2,
-        "followers": 87,
-        "repos": 64,
+        "followers": 89,
+        "repos": 65,
         "prs": 23,
-        "commits": 12,
+        "commits": 15,
         "top5repos": [
             {
                 "name": "LabirintoRecorrente",
@@ -2269,8 +2282,8 @@
         "stars": 0,
         "followers": 0,
         "repos": 1,
-        "prs": 1,
-        "commits": 0,
+        "prs": 2,
+        "commits": 5,
         "top5repos": [
             {
                 "name": "esof",
@@ -2410,7 +2423,7 @@
         "followers": 7,
         "repos": 0,
         "prs": 0,
-        "commits": 1,
+        "commits": 3,
         "top5repos": []
     },
     {
@@ -2566,7 +2579,7 @@
         "followers": 0,
         "repos": 1,
         "prs": 0,
-        "commits": 0,
+        "commits": 6,
         "top5repos": [
             {
                 "name": "ES2026---TPC-3-Acceptance-Tests",
@@ -2580,7 +2593,7 @@
         "followers": 0,
         "repos": 2,
         "prs": 0,
-        "commits": 5,
+        "commits": 6,
         "top5repos": [
             {
                 "name": "app_vasco",
@@ -2596,10 +2609,23 @@
         "username": "RicardoCheta",
         "stars": 0,
         "followers": 0,
-        "repos": 0,
+        "repos": 3,
         "prs": 0,
-        "commits": 0,
-        "top5repos": []
+        "commits": 61,
+        "top5repos": [
+            {
+                "name": "ignite-gym-app",
+                "stargazerCount": 0
+            },
+            {
+                "name": "gestor-alojamento",
+                "stargazerCount": 0
+            },
+            {
+                "name": "onde-vamos",
+                "stargazerCount": 0
+            }
+        ]
     },
     {
         "username": "up202310175",
@@ -2661,7 +2687,7 @@
         "followers": 2,
         "repos": 2,
         "prs": 0,
-        "commits": 19,
+        "commits": 20,
         "top5repos": [
             {
                 "name": "prog",
@@ -2907,7 +2933,7 @@
         "followers": 0,
         "repos": 4,
         "prs": 9,
-        "commits": 44,
+        "commits": 47,
         "top5repos": [
             {
                 "name": "DA_project",
@@ -2945,9 +2971,9 @@
         "username": "ruibrochado",
         "stars": 2,
         "followers": 7,
-        "repos": 2,
+        "repos": 3,
         "prs": 0,
-        "commits": 626,
+        "commits": 636,
         "top5repos": [
             {
                 "name": "Cidade-Alerta",
@@ -2956,6 +2982,10 @@
             {
                 "name": "X-Defense",
                 "stargazerCount": 1
+            },
+            {
+                "name": "Hackathon26",
+                "stargazerCount": 0
             }
         ]
     },
@@ -2965,7 +2995,7 @@
         "followers": 4,
         "repos": 4,
         "prs": 5,
-        "commits": 26,
+        "commits": 34,
         "top5repos": [
             {
                 "name": "SciTech_2025_Hackaton",
@@ -2991,7 +3021,7 @@
         "followers": 3,
         "repos": 1,
         "prs": 0,
-        "commits": 17,
+        "commits": 27,
         "top5repos": [
             {
                 "name": "hi_es_tpc3",
@@ -3080,7 +3110,7 @@
         "followers": 0,
         "repos": 16,
         "prs": 2,
-        "commits": 318,
+        "commits": 316,
         "top5repos": [
             {
                 "name": "scrim-image-processor",
@@ -3140,7 +3170,7 @@
         "followers": 0,
         "repos": 4,
         "prs": 0,
-        "commits": 69,
+        "commits": 33,
         "top5repos": [
             {
                 "name": "SO",
@@ -3181,19 +3211,24 @@
     {
         "username": "GoncaloQ",
         "stars": 0,
-        "followers": 1,
-        "repos": 0,
+        "followers": 2,
+        "repos": 1,
         "prs": 3,
-        "commits": 7,
-        "top5repos": []
+        "commits": 9,
+        "top5repos": [
+            {
+                "name": "IEEE-EMBS-Vital-Detect",
+                "stargazerCount": 0
+            }
+        ]
     },
     {
         "username": "paipaga",
         "stars": 0,
         "followers": 5,
-        "repos": 7,
+        "repos": 8,
         "prs": 1,
-        "commits": 153,
+        "commits": 154,
         "top5repos": [
             {
                 "name": "WeatherPrevision_EBEC",
@@ -3221,9 +3256,9 @@
         "username": "Cast-10",
         "stars": 0,
         "followers": 3,
-        "repos": 8,
+        "repos": 10,
         "prs": 0,
-        "commits": 517,
+        "commits": 536,
         "top5repos": [
             {
                 "name": "WeatherPrevisionApp",
@@ -3251,9 +3286,9 @@
         "username": "luislima9970",
         "stars": 1,
         "followers": 3,
-        "repos": 7,
+        "repos": 12,
         "prs": 0,
-        "commits": 403,
+        "commits": 525,
         "top5repos": [
             {
                 "name": "Automata",
@@ -3283,7 +3318,7 @@
         "followers": 5,
         "repos": 4,
         "prs": 0,
-        "commits": 263,
+        "commits": 278,
         "top5repos": [
             {
                 "name": "WeatherPrevision_EBEC",
@@ -3417,8 +3452,8 @@
         "stars": 0,
         "followers": 2,
         "repos": 3,
-        "prs": 14,
-        "commits": 300,
+        "prs": 75,
+        "commits": 381,
         "top5repos": [
             {
                 "name": "TPC3",
@@ -3438,9 +3473,9 @@
         "username": "guilhermecunha12",
         "stars": 0,
         "followers": 2,
-        "repos": 7,
-        "prs": 13,
-        "commits": 472,
+        "repos": 14,
+        "prs": 89,
+        "commits": 703,
         "top5repos": [
             {
                 "name": "RISC-V-CPU",
@@ -3459,7 +3494,7 @@
                 "stargazerCount": 0
             },
             {
-                "name": "GetCooked",
+                "name": "LDTS_Project",
                 "stargazerCount": 0
             }
         ]
@@ -3468,12 +3503,16 @@
         "username": "DevPedro19",
         "stars": 0,
         "followers": 4,
-        "repos": 3,
-        "prs": 19,
-        "commits": 331,
+        "repos": 4,
+        "prs": 75,
+        "commits": 451,
         "top5repos": [
             {
                 "name": "RISC-V-CPU",
+                "stargazerCount": 0
+            },
+            {
+                "name": "project_final",
                 "stargazerCount": 0
             },
             {
@@ -3536,7 +3575,7 @@
         "followers": 3,
         "repos": 14,
         "prs": 15,
-        "commits": 1000,
+        "commits": 999,
         "top5repos": [
             {
                 "name": "Bob_The_Destructor",
@@ -3566,7 +3605,7 @@
         "followers": 2,
         "repos": 7,
         "prs": 0,
-        "commits": 188,
+        "commits": 189,
         "top5repos": [
             {
                 "name": "projectLDTS",
@@ -3625,7 +3664,7 @@
         "stars": 2,
         "followers": 33,
         "repos": 11,
-        "prs": 18,
+        "prs": 19,
         "commits": 668,
         "top5repos": [
             {
@@ -3800,10 +3839,10 @@
     {
         "username": "Mews",
         "stars": 100,
-        "followers": 24,
+        "followers": 25,
         "repos": 29,
         "prs": 90,
-        "commits": 930,
+        "commits": 924,
         "top5repos": [
             {
                 "name": "pyrobloxbot",
@@ -3895,13 +3934,13 @@
         "followers": 5,
         "repos": 0,
         "prs": 0,
-        "commits": 2,
+        "commits": 3,
         "top5repos": []
     },
     {
         "username": "danielramaa",
         "stars": 3,
-        "followers": 27,
+        "followers": 26,
         "repos": 4,
         "prs": 19,
         "commits": 294,
@@ -3959,7 +3998,7 @@
     {
         "username": "jlage24",
         "stars": 0,
-        "followers": 0,
+        "followers": 1,
         "repos": 8,
         "prs": 37,
         "commits": 412,
@@ -3989,7 +4028,7 @@
     {
         "username": "Torraoo",
         "stars": 0,
-        "followers": 0,
+        "followers": 1,
         "repos": 1,
         "prs": 3,
         "commits": 85,
@@ -4032,7 +4071,7 @@
         "followers": 0,
         "repos": 1,
         "prs": 0,
-        "commits": 7,
+        "commits": 8,
         "top5repos": [
             {
                 "name": "RCOM",
@@ -4067,12 +4106,20 @@
         "username": "arianadacosta244",
         "stars": 0,
         "followers": 0,
-        "repos": 2,
-        "prs": 0,
-        "commits": 3,
+        "repos": 4,
+        "prs": 6,
+        "commits": 15,
         "top5repos": [
             {
+                "name": "DA",
+                "stargazerCount": 0
+            },
+            {
                 "name": "DA-project2",
+                "stargazerCount": 0
+            },
+            {
+                "name": "idk",
                 "stargazerCount": 0
             },
             {
@@ -4087,13 +4134,13 @@
         "followers": 0,
         "repos": 0,
         "prs": 0,
-        "commits": 5,
+        "commits": 46,
         "top5repos": []
     },
     {
         "username": "Miguelaqf06",
         "stars": 0,
-        "followers": 3,
+        "followers": 4,
         "repos": 3,
         "prs": 0,
         "commits": 0,
@@ -4117,8 +4164,8 @@
         "stars": 0,
         "followers": 0,
         "repos": 0,
-        "prs": 0,
-        "commits": 2,
+        "prs": 1,
+        "commits": 45,
         "top5repos": []
     },
     {
@@ -4164,7 +4211,7 @@
     {
         "username": "raquelvs226",
         "stars": 0,
-        "followers": 10,
+        "followers": 12,
         "repos": 0,
         "prs": 9,
         "commits": 8,
@@ -4212,7 +4259,7 @@
         "followers": 0,
         "repos": 4,
         "prs": 0,
-        "commits": 13,
+        "commits": 11,
         "top5repos": [
             {
                 "name": "LDTS_project",
@@ -4308,10 +4355,10 @@
     {
         "username": "putridpunk",
         "stars": 0,
-        "followers": 0,
+        "followers": 2,
         "repos": 1,
         "prs": 0,
-        "commits": 7,
+        "commits": 8,
         "top5repos": [
             {
                 "name": "RCOM",
@@ -4325,7 +4372,7 @@
         "followers": 0,
         "repos": 1,
         "prs": 0,
-        "commits": 1,
+        "commits": 0,
         "top5repos": [
             {
                 "name": "helloworld",
@@ -4336,10 +4383,10 @@
     {
         "username": "AugustoVSoares",
         "stars": 0,
-        "followers": 11,
+        "followers": 12,
         "repos": 0,
         "prs": 19,
-        "commits": 79,
+        "commits": 76,
         "top5repos": []
     },
     {
@@ -4385,9 +4432,9 @@
         "username": "Dab1d",
         "stars": 2,
         "followers": 13,
-        "repos": 10,
-        "prs": 108,
-        "commits": 787,
+        "repos": 11,
+        "prs": 109,
+        "commits": 788,
         "top5repos": [
             {
                 "name": "CrossyRoad-LDTS",
@@ -4414,10 +4461,10 @@
     {
         "username": "peucastro",
         "stars": 18,
-        "followers": 62,
+        "followers": 61,
         "repos": 50,
-        "prs": 218,
-        "commits": 3095,
+        "prs": 219,
+        "commits": 3098,
         "top5repos": [
             {
                 "name": "capstone-project-template",
